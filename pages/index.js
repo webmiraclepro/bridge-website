@@ -4,6 +4,7 @@ import styles from '../styles/Home.module.css'
 import First from './components/First'
 import Second from './components/Second'
 import Third from './components/Third'
+import Fourth from './components/Fourth'
 
 export default function Home() {
   return (
@@ -16,6 +17,9 @@ export default function Home() {
       </div>
       <div>
         <Third />
+      </div>
+      <div>
+        <Fourth />
       </div>
     </div>
   )
