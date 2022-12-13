@@ -5,6 +5,7 @@ import First from './components/First'
 import Second from './components/Second'
 import Third from './components/Third'
 import Fourth from './components/Fourth'
+import Fifth from './components/Fifth'
 
 export default function Home() {
   return (
@@ -20,6 +21,9 @@ export default function Home() {
       </div>
       <div>
         <Fourth />
+      </div>
+      <div>
+        <Fifth />
       </div>
     </div>
   )

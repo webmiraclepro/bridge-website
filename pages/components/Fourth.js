@@ -108,8 +108,10 @@ function Fourth() {
                 </div>
             </div>
         </div>
-        <div className='w-[500px] h-[500px] rounded-full overflow-hidden ml-[750px] mt-[-70px]'>
-            <Image src={artiesImage} />
+        <div className='w-[500px] h-[270px] overflow-hidden ml-[750px] mt-[-70px]'>
+            <div className='w-[500px] h-[500px]'>
+                <Image src={artiesImage} className='rounded-full'/>
+            </div>
         </div>
     </div>
   )
