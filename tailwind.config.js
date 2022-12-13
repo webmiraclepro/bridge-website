@@ -6,6 +6,9 @@ module.exports = {
   ],
   theme: {
     extend: {},
+    fontFamily: {
+      'Exo2' : ['"Exo2-Regular"']
+    }
   },
   plugins: [],
 }
