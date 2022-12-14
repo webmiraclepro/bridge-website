@@ -112,9 +112,14 @@ function Fifth() {
                     <p className='text-white text-[30px] font-bold'>
                         Trevor Owens
                     </p>
-                    <p className='text-white text-[25px]'>
-                        Advisor
-                    </p>
+                    <div className='flex'>
+                        <p className='text-white text-[25px]'>
+                            Advisor
+                        </p>
+                        <p className='bg-white w-[20px] h-[20px] ml-[10px] mt-[10px] font-bold flex items-center justify-center'>
+                            in
+                        </p>
+                    </div>
                 </div>
                 <div className='mt-[30px]'>
                     <p className='text-[#FFFFFF] text-[20px]'>
@@ -141,9 +146,14 @@ function Fifth() {
                     <p className='text-white text-[30px] font-bold'>
                         Luis Ramirez
                     </p>
-                    <p className='text-white text-[25px]'>
-                        Advisor
-                    </p>
+                    <div className='flex'>
+                        <p className='text-white text-[25px]'>
+                            Advisor
+                        </p>
+                        <p className='bg-white w-[20px] h-[20px] ml-[10px] mt-[10px] font-bold flex items-center justify-center'>
+                            in
+                        </p>
+                    </div>
                 </div>
                 <div className='mt-[30px]'>
                     <p className='text-[#FFFFFF] text-[20px]'>
@@ -167,9 +177,14 @@ function Fifth() {
                     <p className='text-white text-[30px] font-bold'>
                         Jamil Dhanani
                     </p>
-                    <p className='text-white text-[25px]'>
-                        Advisor
-                    </p>
+                    <div className='flex'>
+                        <p className='text-white text-[25px]'>
+                            Advisor
+                        </p>
+                        <p className='bg-white w-[20px] h-[20px] ml-[10px] mt-[10px] font-bold flex items-center justify-center'>
+                            in
+                        </p>
+                    </div>
                 </div>
                 <div className='mt-[30px]'>
                     <p className='text-[#FFFFFF] text-[20px]'>
