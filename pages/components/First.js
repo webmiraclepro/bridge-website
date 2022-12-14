@@ -14,11 +14,6 @@ function First() {
           <Image src={crashPunksImage} className='w-[700px] h-[700px] rounded-full p-[80px]' />
         </div>
         <div className='w-1/2 space-y-4'>
-          <div>
-            <p className='text-white text-[35px]'>
-              SPAN THE WEB3 GAPS
-            </p>
-          </div>
           <div className='flex'>
             <p className='text-[#70C48E] text-[75px] font-bold'>
               NFT 
