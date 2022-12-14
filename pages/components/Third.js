@@ -22,9 +22,8 @@ function Third() {
         <div className='w-3/4 h-full flex flex-col items-center justify-center'>
             <div className='!border-[3px] !border-[#42EBC8] rounded-[50px] text-white'>
                 <div className='flex items-center justify-center overflow-hidden p-[40px]'>
-                    {/* <ReactPlayer>
-                        <source url={'../../public/image/a.mp4'} type='video/mp4' />
-                    </ReactPlayer> */}
+                    <video src='/image/a.mp4' controls width={800} height={500}>
+                    </video>
                 </div>
             </div>
         </div>

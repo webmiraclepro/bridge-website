@@ -25,9 +25,14 @@ function Fifth() {
                     <p className='text-white text-[30px] font-bold'>
                         Ilan Klein
                     </p>
-                    <p className='text-white text-[25px]'>
-                        Founder
-                    </p>
+                    <div className='flex'>
+                        <p className='text-white text-[25px]'>
+                            Founder
+                        </p>
+                        <a href={'https://www.linkedin.com/in/ilan-klein-8073192'} target="_blank" className='bg-white w-[20px] h-[20px] ml-[10px] mt-[10px] font-bold flex items-center justify-center'>
+                            in
+                        </a>
+                    </div>
                 </div>
                 <div className='mt-[30px]'>
                     <p className='text-[#FFFFFF] text-[20px]'>
@@ -54,9 +59,14 @@ function Fifth() {
                     <p className='text-white text-[30px] font-bold'>
                         Micha Riss
                     </p>
-                    <p className='text-white text-[25px]'>
-                        CMO
-                    </p>
+                    <div className='flex'>
+                        <p className='text-white text-[25px]'>
+                            CMO
+                        </p>
+                        <a href={'https://www.linkedin.com/in/michariss'} target='_blank' className='bg-white w-[20px] h-[20px] ml-[10px] mt-[10px] font-bold flex items-center justify-center'>
+                            in
+                        </a>
+                    </div>
                 </div>
                 <div className='mt-[30px]'>
                     <p className='text-[#FFFFFF] text-[20px]'>
@@ -82,9 +92,14 @@ function Fifth() {
                     <p className='text-white text-[30px] font-bold'>
                         Ethan Tan
                     </p>
-                    <p className='text-white text-[25px]'>
-                        Advisor
-                    </p>
+                    <div className='flex'>
+                        <p className='text-white text-[25px]'>
+                            Advisor
+                        </p>
+                        <a href={'https://www.linkedin.com/in/ethanjy'} target='_blank' className='bg-white w-[20px] h-[20px] ml-[10px] mt-[10px] font-bold flex items-center justify-center'>
+                            in
+                        </a>
+                    </div>
                 </div>
                 <div className='mt-[30px]'>
                     <p className='text-[#FFFFFF] text-[20px]'>
@@ -116,9 +131,9 @@ function Fifth() {
                         <p className='text-white text-[25px]'>
                             Advisor
                         </p>
-                        <p className='bg-white w-[20px] h-[20px] ml-[10px] mt-[10px] font-bold flex items-center justify-center'>
+                        <a href={'https://www.linkedin.com/in/owenstrevor'} target='_blank' className='bg-white w-[20px] h-[20px] ml-[10px] mt-[10px] font-bold flex items-center justify-center'>
                             in
-                        </p>
+                        </a>
                     </div>
                 </div>
                 <div className='mt-[30px]'>
@@ -150,9 +165,9 @@ function Fifth() {
                         <p className='text-white text-[25px]'>
                             Advisor
                         </p>
-                        <p className='bg-white w-[20px] h-[20px] ml-[10px] mt-[10px] font-bold flex items-center justify-center'>
+                        <a href={'https://www.linkedin.com/in/luis-ramirez-5b6a6a238'} target='_blank' className='bg-white w-[20px] h-[20px] ml-[10px] mt-[10px] font-bold flex items-center justify-center'>
                             in
-                        </p>
+                        </a>
                     </div>
                 </div>
                 <div className='mt-[30px]'>
@@ -181,9 +196,9 @@ function Fifth() {
                         <p className='text-white text-[25px]'>
                             Advisor
                         </p>
-                        <p className='bg-white w-[20px] h-[20px] ml-[10px] mt-[10px] font-bold flex items-center justify-center'>
+                        <a href={'https://www.linkedin.com/in/jdhanani'} target='_blank' className='bg-white w-[20px] h-[20px] ml-[10px] mt-[10px] font-bold flex items-center justify-center'>
                             in
-                        </p>
+                        </a>
                     </div>
                 </div>
                 <div className='mt-[30px]'>
