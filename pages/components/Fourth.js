@@ -3,7 +3,7 @@ import Image from 'next/image'
 import leaderIcon from '../../public/image/team-leader.png';
 import marketIcon from '../../public/image/shopping-cart.png';
 import bookIcon from '../../public/image/books-stack-of-three.png';
-import manIcon from '../../public/image/books-stack-of-three.png';
+import manIcon from '../../public/image/man.png';
 import artiesImage from '../../public/image/Artie-7713.jpeg';
 
 function Fourth() {
@@ -15,7 +15,7 @@ function Fourth() {
                     <Image src={leaderIcon} className='p-1'/>
                 </div>
                 <div className='mt-[30px]'>
-                    <p className='text-[#70C48E] text-[30px]'>
+                    <p className='text-[#42EBC8] text-[30px]'>
                         BLOCKCHAIN <br />
                         LEADERS <br />
                     </p>
@@ -41,7 +41,7 @@ function Fourth() {
                     <Image src={marketIcon} className='p-1'/>
                 </div>
                 <div className='mt-[30px]'>
-                    <p className='text-[#70C48E] text-[30px]'>
+                    <p className='text-[#42EBC8] text-[30px]'>
                         MARKETS <br />
                         <br />
                     </p>
@@ -66,7 +66,7 @@ function Fourth() {
                     <Image src={bookIcon} className='p-1'/>
                 </div>
                 <div className='mt-[30px]'>
-                    <p className='text-[#70C48E] text-[30px]'>
+                    <p className='text-[#42EBC8] text-[30px]'>
                         COLLECTIONS <br />
                          <br />
                     </p>
@@ -85,11 +85,11 @@ function Fourth() {
                 </div>
             </div>
             <div className='flex flex-col items-start mt-[60px] w-1/4'>
-                <div className='bg-white rounded-full w-12 h-12 items-start'>
+                <div className='bg-white rounded-full w-12 h-12 items-start overflow-hidden'>
                     <Image src={manIcon} className='p-1'/>
                 </div>
                 <div className='mt-[30px]'>
-                    <p className='text-[#70C48E] text-[30px]'>
+                    <p className='text-[#42EBC8] text-[30px]'>
                         COLLECTORS <br />
                         <br />
                     </p>

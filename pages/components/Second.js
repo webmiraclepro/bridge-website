@@ -12,7 +12,7 @@ function Second() {
         </div>
         <div className='w-4/5 flex-col items-start justify-center'>
             <div>
-                <p className='text-[#70C48E] text-[40px]'>
+                <p className='text-[#42EBC8] text-[40px]'>
                     ARE YOUR NFTS STUCK ON THEIR <br />
                     NATIVE CHAINS? NFT BRIDGES ALLOW <br />
                     YOU TO PORT YOUR DIGITAL ASSETS <br />

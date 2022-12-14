@@ -15,7 +15,7 @@ function First() {
         </div>
         <div className='w-1/2 space-y-4'>
           <div className='flex'>
-            <p className='text-[#70C48E] text-[75px] font-bold'>
+            <p className='text-[#42EBC8] text-[75px] font-bold'>
               NFT 
             </p>
             <p className='text-white text-[75px] font-bold ml-4'>

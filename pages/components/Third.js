@@ -5,7 +5,7 @@ function Third() {
   return (
     <div className='bg-black w-full h-[600px] flex'>
         <div className='w-1/4 flex flex-col justify-center ml-[70px]'>
-            <p className='text-[#70C48E] text-[40px]'>
+            <p className='text-[#42EBC8] text-[40px]'>
                 BUILDING <br />
                 SECURE NFT <br />
                 BRIDGES<br />
@@ -20,7 +20,7 @@ function Third() {
             </p>
         </div>
         <div className='w-3/4 h-full flex flex-col items-center justify-center'>
-            <div className='!border-[3px] !border-[#70C48E] rounded-[50px] text-white'>
+            <div className='!border-[3px] !border-[#42EBC8] rounded-[50px] text-white'>
                 <div className='flex items-center justify-center overflow-hidden p-[40px]'>
                     {/* <ReactPlayer>
                         <source url={'../../public/image/a.mp4'} type='video/mp4' />
