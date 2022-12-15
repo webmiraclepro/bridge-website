@@ -110,7 +110,7 @@ function Seventh() {
                             investments when they can <br />
                             move their NFTs from chain<br />
                             to chain and arbitrage their<br />
-                            assets' prices on multiple<br />
+                            assets&apos; prices on multiple<br />
                             chains.<br />
                         </p>
                     </div>

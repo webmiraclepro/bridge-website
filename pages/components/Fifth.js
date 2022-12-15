@@ -29,7 +29,7 @@ function Fifth() {
                         <p className='text-white text-[25px]'>
                             Founder
                         </p>
-                        <a href={'https://www.linkedin.com/in/ilan-klein-8073192'} target="_blank" className='bg-white w-[20px] h-[20px] ml-[10px] mt-[10px] font-bold flex items-center justify-center'>
+                        <a href={'https://www.linkedin.com/in/ilan-klein-8073192'} target="_blank" rel="noreferrer" className='bg-white w-[20px] h-[20px] ml-[10px] mt-[10px] font-bold flex items-center justify-center'>
                             in
                         </a>
                     </div>
@@ -63,7 +63,7 @@ function Fifth() {
                         <p className='text-white text-[25px]'>
                             CMO
                         </p>
-                        <a href={'https://www.linkedin.com/in/michariss'} target='_blank' className='bg-white w-[20px] h-[20px] ml-[10px] mt-[10px] font-bold flex items-center justify-center'>
+                        <a href={'https://www.linkedin.com/in/michariss'} target='_blank' rel="noreferrer" className='bg-white w-[20px] h-[20px] ml-[10px] mt-[10px] font-bold flex items-center justify-center'>
                             in
                         </a>
                     </div>
@@ -96,7 +96,7 @@ function Fifth() {
                         <p className='text-white text-[25px]'>
                             Advisor
                         </p>
-                        <a href={'https://www.linkedin.com/in/ethanjy'} target='_blank' className='bg-white w-[20px] h-[20px] ml-[10px] mt-[10px] font-bold flex items-center justify-center'>
+                        <a href={'https://www.linkedin.com/in/ethanjy'} target='_blank' rel="noreferrer" className='bg-white w-[20px] h-[20px] ml-[10px] mt-[10px] font-bold flex items-center justify-center'>
                             in
                         </a>
                     </div>
@@ -107,7 +107,7 @@ function Fifth() {
                     has worked with alternative <br />
                     investments in Singapore. He <br />
                     graduated from Imperial College<br />
-                    London with a Master's degree in <br />
+                    London with a Master&apos;s degree in <br />
                     Finance & Accounting and he <br />
                     currently serves as a VP at <br />
                     Pinetree Securities. <br />
@@ -131,7 +131,7 @@ function Fifth() {
                         <p className='text-white text-[25px]'>
                             Advisor
                         </p>
-                        <a href={'https://www.linkedin.com/in/owenstrevor'} target='_blank' className='bg-white w-[20px] h-[20px] ml-[10px] mt-[10px] font-bold flex items-center justify-center'>
+                        <a href={'https://www.linkedin.com/in/owenstrevor'} target='_blank' rel="noreferrer" className='bg-white w-[20px] h-[20px] ml-[10px] mt-[10px] font-bold flex items-center justify-center'>
                             in
                         </a>
                     </div>
@@ -165,7 +165,7 @@ function Fifth() {
                         <p className='text-white text-[25px]'>
                             Advisor
                         </p>
-                        <a href={'https://www.linkedin.com/in/luis-ramirez-5b6a6a238'} target='_blank' className='bg-white w-[20px] h-[20px] ml-[10px] mt-[10px] font-bold flex items-center justify-center'>
+                        <a href={'https://www.linkedin.com/in/luis-ramirez-5b6a6a238'} target='_blank' rel="noreferrer" className='bg-white w-[20px] h-[20px] ml-[10px] mt-[10px] font-bold flex items-center justify-center'>
                             in
                         </a>
                     </div>
@@ -196,7 +196,7 @@ function Fifth() {
                         <p className='text-white text-[25px]'>
                             Advisor
                         </p>
-                        <a href={'https://www.linkedin.com/in/jdhanani'} target='_blank' className='bg-white w-[20px] h-[20px] ml-[10px] mt-[10px] font-bold flex items-center justify-center'>
+                        <a href={'https://www.linkedin.com/in/jdhanani'} target='_blank' rel="noreferrer" className='bg-white w-[20px] h-[20px] ml-[10px] mt-[10px] font-bold flex items-center justify-center'>
                             in
                         </a>
                     </div>

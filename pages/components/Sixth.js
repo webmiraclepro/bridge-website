@@ -43,13 +43,13 @@ function Sixth() {
               <p className='text-white text-[20px]'>
                 Many new networks are trying to entice NFT collections <br />
                 and collectors to deploy on their Blockchains to increase <br />
-                the chain's liquidity and number of transactions<br />
+                the chain&apos;s liquidity and number of transactions<br />
               </p>
               <hr className='mt-[15px]' />
             </div>
             <div className='mt-[15px]'>
               <p className='text-white text-[20px]'>
-                That's why we are building an NFT bridge.
+                That&apos;s why we are building an NFT bridge.
               </p>
               <hr className='mt-[15px]' />
             </div>

@@ -15,13 +15,13 @@ function Header() {
         </div>
         <div className='w-1/2 flex'>
           <div className='flex space-x-6 mt-[60px] content-start w-4/5'>
-            <a className='bg-white rounded-full w-10 h-10' href='https://twitter.com/nft_bridges' target='_blank'>
+            <a className='bg-white rounded-full w-10 h-10' href='https://twitter.com/nft_bridges' target='_blank' rel="noreferrer">
               <Image src={twitterIcon} className='p-1'/>
             </a>
-            <a className='bg-white rounded-full w-10 h-10' href='https://discord.gg/cnEsj65uJh' target='_blank'>
+            <a className='bg-white rounded-full w-10 h-10' href='https://discord.gg/cnEsj65uJh' target='_blank' rel="noreferrer">
               <Image src={discordIcon} className='p-1'/>
             </a>
-            <a className='bg-white rounded-full w-10 h-10' href='https://t.me/nft_bridges' target='_blank'>
+            <a className='bg-white rounded-full w-10 h-10' href='https://t.me/nft_bridges' target='_blank' rel="noreferrer">
               <Image src={telegramIcon} className='p-2'/>
             </a>
           </div>
