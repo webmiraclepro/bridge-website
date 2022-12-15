@@ -2,8 +2,10 @@ import React from 'react'
 import Image from 'next/image'
 import robel from '../../public/image/Rebel_tuer_NFT.jpg';
 import crash from '../../public/image/Crash_Punk_NFT.jpg';
+import { useRouter } from 'next/router';
 
 function Seventh() {
+  const router = useRouter();
   return (
     <div className="w-full h-[1600px] bg-[url('../public/image/Backgrouns-07.jpg')] bg-cover flex-col">
         <div className='flex'>
@@ -122,9 +124,10 @@ function Seventh() {
                 </div>
             </div>
             <div className='w-[300px] h-[100px] rounded-full flex items-center mt-[120px] ml-[50px]'>     
-               <p className='py-[25px] px-[50px] bg-[#42EBC8] rounded-full font-bold'>
+               <button className='py-[25px] px-[50px] bg-[#42EBC8] rounded-full font-bold'
+                    onClick={() => router.push('/Contact')}>
                     CONTACT
-                </p>
+                </button>
             </div>
         </div>
     </div>
