@@ -15,7 +15,7 @@ function Fourth() {
                     <Image src={leaderIcon} className='p-1'/>
                 </div>
                 <div className='mt-[30px]'>
-                    <p className='text-[#42EBC8] text-[30px]'>
+                    <p className='text-[#42EBC8] text-[30px] font-Exo2'>
                         BLOCKCHAIN <br />
                         LEADERS <br />
                     </p>
@@ -41,7 +41,7 @@ function Fourth() {
                     <Image src={marketIcon} className='p-1'/>
                 </div>
                 <div className='mt-[30px]'>
-                    <p className='text-[#42EBC8] text-[30px]'>
+                    <p className='text-[#42EBC8] text-[30px] font-Exo2'>
                         MARKETS <br />
                         <br />
                     </p>
@@ -66,7 +66,7 @@ function Fourth() {
                     <Image src={bookIcon} className='p-1'/>
                 </div>
                 <div className='mt-[30px]'>
-                    <p className='text-[#42EBC8] text-[30px]'>
+                    <p className='text-[#42EBC8] text-[30px] font-Exo2'>
                         COLLECTIONS <br />
                          <br />
                     </p>
@@ -89,7 +89,7 @@ function Fourth() {
                     <Image src={manIcon} className='p-1'/>
                 </div>
                 <div className='mt-[30px]'>
-                    <p className='text-[#42EBC8] text-[30px]'>
+                    <p className='text-[#42EBC8] text-[30px] font-Exo2'>
                         COLLECTORS <br />
                         <br />
                     </p>

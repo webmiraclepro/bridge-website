@@ -6,13 +6,13 @@ function Second() {
   return (
     <div className="w-full h-[1000px] bg-[url('../public/image/Backgrouns-02.jpg')] bg-cover flex items-center justify-start">
         <div className='w-2/5'>
-            <div className='w-[380px] h-[380px] rounded-full ml-[-100px] overflow-hidden'>
+            <div className='w-[500px] h-[500px] rounded-full ml-[-100px] overflow-hidden'>
                 <Image src={spaceWhalesImage}/>
             </div>
         </div>
         <div className='w-4/5 flex-col items-start justify-center'>
             <div>
-                <p className='text-[#42EBC8] text-[40px]'>
+                <p className='text-[#42EBC8] text-[40px] font-Exo2'>
                     ARE YOUR NFTS STUCK ON THEIR <br />
                     NATIVE CHAINS? NFT BRIDGES ALLOW <br />
                     YOU TO PORT YOUR DIGITAL ASSETS <br />

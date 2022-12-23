@@ -22,7 +22,7 @@ function First() {
               BRIDGES
             </p> 
           </div>
-          <div className='flex flex-col'>
+          <div className="flex flex-col font-Exo2">
             <p className='text-white text-[35px]'>
               BUILDING THE
             </p> 

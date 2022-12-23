@@ -12,7 +12,7 @@ function Fifth() {
     <div className="w-full h-[1500px] bg-[url('../public/image/Backgrouns-05.jpg')] bg-cover flex-col">
         <div className='w-full h-[600px] flex'>
             <div className='flex flex-col items-start mt-[80px] w-1/4 ml-[70px]'>
-                <p className='text-[#42EBC8] text-[40px]'> 
+                <p className='text-[#42EBC8] text-[40px] font-Exo2'> 
                     TEAM AND <br />
                     ADVISORS <br />
                 </p>
@@ -88,7 +88,7 @@ function Fifth() {
                 <div className='rounded-full w-[160px] h-[160px] items-start bg-cover mt-[10px]'>
                     <Image src={ethan} className='p-1 bg-cover rounded-full'/>
                 </div>
-                <div className='mt-[20px] flex-col'>
+                <div className='mt-[20px] flex-col '>
                     <p className='text-white text-[30px] font-bold'>
                         Ethan Tan
                     </p>

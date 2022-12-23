@@ -5,7 +5,7 @@ function Third() {
   return (
     <div className='bg-black w-full h-[600px] flex'>
         <div className='w-1/4 flex flex-col justify-center ml-[70px]'>
-            <p className='text-[#42EBC8] text-[40px]'>
+            <p className='text-[#42EBC8] text-[40px] font-Exo2'>
                 BUILDING <br />
                 SECURE NFT <br />
                 BRIDGES<br />

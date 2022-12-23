@@ -15,24 +15,31 @@ export default function Home() {
       <div>
         <First />
       </div>
+      <hr />
       <div>
         <Second />
       </div>
+      <hr />
       <div>
         <Third />
       </div>
+      <hr />
       <div>
         <Fourth />
       </div>
+      <hr />
       <div>
         <Fifth />
       </div>
+      <hr />
       <div>
         <Sixth />
       </div>
+      <hr />
       <div>
         <Seventh />
       </div>
+      <hr />
       <div>
         <Footer />
       </div>

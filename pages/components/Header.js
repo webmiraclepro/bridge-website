@@ -11,7 +11,7 @@ function Header() {
   return (
     <div className="w-full h-[150px] flex">
         <div className='w-1/2 pl-[20px] pt-[40px] flex items-center'>
-          <Image src={nftBridgeImage} width={250} height={150} className='flex object-cover p-[50px]'/>
+          <Image src={nftBridgeImage} width={300} height={180} className='flex object-cover p-[50px]'/>
         </div>
         <div className='w-1/2 flex'>
           <div className='flex space-x-6 mt-[60px] content-start w-4/5'>
