@@ -5,32 +5,6 @@ import Footer from './components/Footer'
 import {useState} from 'react'
 
 function Contact() {
-  // const [values, setValues] = useState({
-  //   name: "",
-  //   email: "",
-  //   message: "",
-  // });
-
-  // const {name, email, message} = values;
-
-  // const handleChange = e => setValues(
-  //   { ...values, [e.target.name]: e.target.name}
-  // );
-  // const handleSubmit = async e => {
-  //   e.preventDefault();
-  //   try{
-  //     await fetch('http://localhost:3000/api/contact', {
-  //       method: "POST",
-  //       headers: {
-  //         "Content-Type": "application/json",
-  //       },
-  //       body: JSON.stringify(values),
-  //     });
-  //   }
-  //     catch (err) {
-  //       console.log(err);
-  //     }
-  // }
   return (
     <div>
       <div className="w-full h-[1110px] bg-[url('../public/image/Backgrouns-04.jpg')] bg-cover flex-col">
@@ -55,7 +29,7 @@ function Contact() {
               </div>
               <div className='flex-col items-start justify-center ml-[130px] mt-[130px]'>
                 <div className='flex-col ml-[50px]'>
-                  <form action='https://formspree.io/f/xpzezdrp' method='post'>
+                  <form action='https://formspree.io/f/xpzezdew' method='post'>
                     <div className=' text-black'>
                       <input placeholder='Name' name='Name' 
                       className='w-[700px] h-[30px] rounded-full pl-[15px]'/>
@@ -75,7 +49,7 @@ function Contact() {
                       </div>
                     </div>
                     <div className='mt-[15px]'>
-                      <input name='Message' className='w-[700px] h-[300px] rounded-[20px] pl-[15px]'/>
+                      <textarea name='Message' className='w-[700px] h-[300px] rounded-[20px] pl-[15px] text-left' />
                     </div>
                     <div className='w-[300px] h-[100px] rounded-full flex items-center'>     
                       <button type='submit' className='py-[7px] px-[20px] bg-[#42EBC8] rounded-full font-bold'>
