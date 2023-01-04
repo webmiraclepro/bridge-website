@@ -1,9 +1,9 @@
 import React from 'react'
 import Image from 'next/image'
-import leaderIcon from '../../public/image/team-leader.png';
-import marketIcon from '../../public/image/shopping-cart.png';
-import bookIcon from '../../public/image/books-stack-of-three.png';
-import manIcon from '../../public/image/man.png';
+import leaderIcon from '../../public/image/Blockchain_Leaders_Icon.jpg';
+import marketIcon from '../../public/image/Markets_Icon.jpg';
+import bookIcon from '../../public/image/Collections_Icon.jpg';
+import manIcon from '../../public/image/Collectors_Icon.jpg';
 import artiesImage from '../../public/image/Artie-7713.jpeg';
 
 function Fourth() {
@@ -11,8 +11,8 @@ function Fourth() {
     <div className="w-full h-[800px] bg-[url('../public/image/Backgrouns-04.jpg')] bg-cover flex-col">
         <div className='w-full h-[600px] flex'>
             <div className='flex flex-col items-start mt-[60px] w-1/4 ml-[100px]'>
-                <div className='bg-white rounded-full w-12 h-12 items-start'>
-                    <Image src={leaderIcon} className='p-1'/>
+                <div className='rounded-full w-30 h-30 items-start overflow-hidden'>
+                    <Image src={leaderIcon}/>
                 </div>
                 <div className='mt-[30px]'>
                     <p className='text-[#42EBC8] text-[30px] font-Exo2'>
@@ -37,8 +37,8 @@ function Fourth() {
                 </div>
             </div>
             <div className='flex flex-col items-start mt-[60px] w-1/4'>
-                <div className='bg-white rounded-full w-12 h-12 items-start'>
-                    <Image src={marketIcon} className='p-1'/>
+                <div className='rounded-full w-30 h-30 items-start'>
+                    <Image src={marketIcon} className=''/>
                 </div>
                 <div className='mt-[30px]'>
                     <p className='text-[#42EBC8] text-[30px] font-Exo2'>
@@ -62,8 +62,8 @@ function Fourth() {
                 </div>
             </div>
             <div className='flex flex-col items-start mt-[60px] w-1/4'>
-                <div className='bg-white rounded-full w-12 h-12 items-start'>
-                    <Image src={bookIcon} className='p-1'/>
+                <div className='rounded-full w-30 h-30 items-start'>
+                    <Image src={bookIcon} className=''/>
                 </div>
                 <div className='mt-[30px]'>
                     <p className='text-[#42EBC8] text-[30px] font-Exo2'>
@@ -85,8 +85,8 @@ function Fourth() {
                 </div>
             </div>
             <div className='flex flex-col items-start mt-[60px] w-1/4'>
-                <div className='bg-white rounded-full w-12 h-12 items-start overflow-hidden'>
-                    <Image src={manIcon} className='p-1'/>
+                <div className='bg-white rounded-full w-30 h-30 items-start overflow-hidden'>
+                    <Image src={manIcon} className=''/>
                 </div>
                 <div className='mt-[30px]'>
                     <p className='text-[#42EBC8] text-[30px] font-Exo2'>
