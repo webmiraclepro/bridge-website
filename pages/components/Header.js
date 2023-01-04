@@ -6,12 +6,24 @@ import discordIcon from "../../public/image/discord.png";
 import telegramIcon from "../../public/image/telegram.png";
 import youtubeIcon from "../../public/image/youtube.png";
 import menuIcon from "../../public/image/menu.png";
+import { useRouter } from 'next/router';
 
 function Header() {
+  
+  const router = useRouter();
+  
+  const goToTop = () => {
+    window.scrollTo({
+        top: 0,
+        behavior: 'smooth',
+    });
+  };
   return (
     <div className="w-full h-[150px] flex">
         <div className='w-1/2 pl-[20px] pt-[40px] flex items-center'>
-          <Image src={nftBridgeImage} width={300} height={180} className='flex object-cover p-[50px]'/>
+          <button>
+            <Image src={nftBridgeImage} width={300} height={180} className='flex object-cover p-[50px]' onClick={() => router.push('/')} />
+          </button>
         </div>
         <div className='w-1/2 flex'>
           <div className='flex space-x-6 mt-[60px] content-start w-4/5'>
@@ -26,7 +38,9 @@ function Header() {
             </a>
           </div>
           <div className='w-14 h-14 mt-[50px]'>
-            <Image src={menuIcon} />
+            <button>
+              <Image src={menuIcon} onClick={() => router.push('/Contact')} />
+            </button>
           </div>
         </div>
     </div>

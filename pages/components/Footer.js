@@ -8,10 +8,19 @@ import youtubeIcon from "../../public/image/youtube.png";
 import arrowup from "../../public/image/arrowup.png";
 
 function Footer() {
+  const goToTop = () => {
+    window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+      }
+    )
+  }
   return (
     <div className="w-full h-[250px] flex">
         <div className='w-1/2 pl-[20px] pt-[40px] flex items-center'>
-          <Image src={nftBridgeImage} width={250} height={100} className='flex object-cover p-[50px]'/>
+          <button>
+            <Image src={nftBridgeImage} width={250} height={100} className='flex object-cover p-[50px]' onClick={goToTop} />
+          </button>
         </div>
         <div className='w-1/2 flex'>
           <div className='flex space-x-7 mt-[120px]'>
@@ -38,7 +47,9 @@ function Footer() {
                     TOP
                 </p>
                 <div className='w-[30px] h-[30px] rounded-full mt-[10px]'>
-                    <Image src={arrowup} className='rounded-full' />
+                  <button>
+                    <Image src={arrowup} className='rounded-full' onClick={goToTop}/>
+                  </button>
                 </div>
             </div>
         </div>
