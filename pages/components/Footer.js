@@ -33,9 +33,6 @@ function Footer() {
             <div className='bg-white rounded-full w-10 h-10'>
               <Image src={telegramIcon} className='p-2'/>
             </div>
-            <div className='bg-white rounded-full w-10 h-10'>
-              <Image src={youtubeIcon} className='p-2'/>
-            </div>
           </div>
           <div className='ml-[200px] mt-[130px]'>
                 <p className='text-white font-[17px]'>
