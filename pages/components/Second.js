@@ -5,12 +5,12 @@ import Image from 'next/image';
 function Second() {
   return (
     <div className="w-full h-[1000px] bg-[url('../public/image/Backgrouns-02.jpg')] bg-cover flex items-center justify-start">
-        <div className='w-2/5'>
+        <div className='w-1/4'>
             <div className='w-[500px] h-[500px] rounded-full ml-[-100px] overflow-hidden'>
                 <Image src={spaceWhalesImage}/>
             </div>
         </div>
-        <div className='w-4/5 flex-col items-start justify-center'>
+        <div className='w-3/4 flex-col items-start justify-center'>
             <div>
                 <p className='text-[#42EBC8] text-[40px] font-Exo2'>
                     ARE YOUR NFTS STUCK ON THEIR <br />
@@ -21,7 +21,7 @@ function Second() {
                 </p>
             </div>
             <div className='mt-[50px]'>
-                <p className='text-white text-[25px]'>
+                <p className='text-white text-[35px]'>
                     What if you could transfer your Eth-based NFTs to <br />
                     another blockchain, or vice versa? Now, you can. <br />
                 </p>

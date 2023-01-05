@@ -9,8 +9,8 @@ function Seventh() {
   return (
     <div className="w-full h-[1600px] bg-[url('../public/image/Backgrouns-07.jpg')] bg-cover flex-col">
         <div className='flex'>
-            <div className='flex-col mt-[120px] justify-center items-center ml-[70px]'>
-                <div className=''>
+            <div className='flex-col mt-[120px] justify-center items-center w-1/4'>
+                <div className='ml-[70px] '>
                     <p className='text-[40px] text-[#42EBC8] font-Exo2'>
                         SECURITY
                     </p>
@@ -21,7 +21,7 @@ function Seventh() {
                     </div>
                 </div>
             </div>
-            <div className='flex-col items-start justify-center ml-[130px] mt-[130px]'>
+            <div className='flex-col items-start justify-center mt-[130px] w-3/4'>
                 <div className=''>
                     <p className='text-white text-[20px]'>
                         When it comes to Web3, security is a prime concern, and we’ve made NFT Bridges as secure <br />
@@ -40,7 +40,7 @@ function Seventh() {
                     </p>
                 </div>
                 <div className='flex mt-[100px]'>
-                    <div className='flex-col'>
+                    <div className='flex-col w-1/3'>
                         <p className='text-[32px] text-[#42EBC8]'>
                             Benefits for <br />
                             Everyone on Web3: <br />
@@ -56,7 +56,7 @@ function Seventh() {
                             for all Web3 participants.<br />
                         </p>
                     </div>
-                    <div className='flex-col ml-[50px]'>
+                    <div className='flex-col w-1/3'>
                         <p className='text-[32px] text-[#42EBC8]'>
                             Collection <br />
                             Managers <br />
@@ -70,7 +70,7 @@ function Seventh() {
                             out right away.<br />
                         </p>
                     </div>
-                    <div className='flex-col ml-[50px]'>
+                    <div className='flex-col w-1/3'>
                         <p className='text-[32px] text-[#42EBC8]'>
                             Blockchain <br />
                             Leadership <br />
@@ -86,7 +86,7 @@ function Seventh() {
                     </div>
                 </div>
                 <div className='flex mt-[50px]'>
-                    <div className='flex-col'>
+                    <div className='flex-col w-1/3'>
                         <p className='text-[32px] text-[#42EBC8]'>
                             NFT Markets <br />
                         </p>
@@ -100,7 +100,7 @@ function Seventh() {
                             Arties.<br />
                         </p>
                     </div>
-                    <div className='flex-col ml-[50px]'>
+                    <div className='flex-col w-1/3'>
                         <p className='text-[32px] text-[#42EBC8]'>
                             Collectors <br />
                         </p>
@@ -118,16 +118,20 @@ function Seventh() {
             </div>
         </div>
         <div className='flex mt-[40px]'>
-            <div className='w-[500px] h-[295px] ml-[300px] overflow-hidden'>
-                <div className='w-[500px] h-[500px]'>
-                    <Image src={crash} className='rounded-full'/>
+            <div className='w-1/2'>
+                <div className='w-[500px] h-[295px] ml-[300px] overflow-hidden'>
+                    <div className='w-[500px] h-[500px]'>
+                        <Image src={crash} className='rounded-full'/>
+                    </div>
                 </div>
             </div>
-            <div className='w-[300px] h-[100px] rounded-full flex items-center mt-[120px] ml-[50px]'>     
-               <button className='py-[30px] px-[80px] bg-[#42EBC8] rounded-full font-bold text-[40px]'
-                    onClick={() => router.push('/Contact')}>
-                    CONTACT
-                </button>
+            <div className='w-1/2'>
+                <div className='w-[300px] h-[100px] rounded-full flex items-center mt-[120px]'>     
+                <button className='py-[30px] px-[80px] bg-[#42EBC8] rounded-full font-bold text-[40px]'
+                        onClick={() => router.push('/Contact')}>
+                        CONTACT
+                    </button>
+                </div>
             </div>
         </div>
     </div>

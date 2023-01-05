@@ -10,8 +10,8 @@ function Fourth() {
   return (
     <div className="w-full h-[800px] bg-[url('../public/image/Backgrouns-04.jpg')] bg-cover flex-col">
         <div className='w-full h-[600px] flex'>
-            <div className='flex flex-col items-start mt-[60px] w-1/4 ml-[100px]'>
-                <div className='rounded-full w-30 h-30 items-start overflow-hidden'>
+            <div className='flex flex-col items-start mt-[60px] w-1/4 ml-[80px]'>
+                <div className='rounded-full w-30 h-30 items-start overflow-hidden ml-[-10px]'>
                     <Image src={leaderIcon}/>
                 </div>
                 <div className='mt-[30px]'>
@@ -36,8 +36,8 @@ function Fourth() {
                     </p>
                 </div>
             </div>
-            <div className='flex flex-col items-start mt-[60px] w-1/4'>
-                <div className='rounded-full w-30 h-30 items-start'>
+            <div className='flex flex-col items-start mt-[60px] w-1/4 ml-[5px]'>
+                <div className='rounded-full w-30 h-30 items-start ml-[-15px]'>
                     <Image src={marketIcon} className=''/>
                 </div>
                 <div className='mt-[30px]'>
@@ -62,7 +62,7 @@ function Fourth() {
                 </div>
             </div>
             <div className='flex flex-col items-start mt-[60px] w-1/4'>
-                <div className='rounded-full w-30 h-30 items-start'>
+                <div className='rounded-full w-30 h-30 items-start ml-[-15px]'>
                     <Image src={bookIcon} className=''/>
                 </div>
                 <div className='mt-[30px]'>
@@ -85,7 +85,7 @@ function Fourth() {
                 </div>
             </div>
             <div className='flex flex-col items-start mt-[60px] w-1/4'>
-                <div className='bg-white rounded-full w-30 h-30 items-start overflow-hidden'>
+                <div className='bg-white rounded-full w-30 h-30 items-start overflow-hidden ml-[-15px]'>
                     <Image src={manIcon} className=''/>
                 </div>
                 <div className='mt-[30px]'>
@@ -108,9 +108,16 @@ function Fourth() {
                 </div>
             </div>
         </div>
-        <div className='w-[500px] h-[270px] overflow-hidden ml-[750px] mt-[-70px]'>
-            <div className='w-[500px] h-[500px]'>
-                <Image src={artiesImage} className='rounded-full'/>
+        <div>
+            <div className='w-1/2'>
+            
+            </div>
+            <div className='w-1/2 flex items-center justify-center ml-[900px]'>
+                <div className='w-[500px] h-[270px] overflow-hidden mt-[-70px]'>
+                    <div className='w-[500px] h-[500px]'>
+                        <Image src={artiesImage} className='rounded-full'/>
+                    </div>
+                </div>
             </div>
         </div>
     </div>

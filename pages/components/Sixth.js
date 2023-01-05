@@ -54,7 +54,7 @@ function Sixth() {
               <hr className='mt-[15px]' />
             </div>
           </div>
-          <div className='w-1/2 ml-[30px] mr-[50px] mt-[-45px]'>
+          <div className='w-1/2 ml-[40px] mr-[50px] mt-[-45px]'>
             <div>
               <p className='text-[#42EBC8] text-[30px]'>
                 We are building a set<br />

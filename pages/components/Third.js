@@ -21,8 +21,8 @@ function Third() {
         </div>
         <div className='w-3/4 h-full flex flex-col items-center justify-center'>
             <div className='!border-[3px] !border-[#42EBC8] rounded-[50px] text-white'>
-                <div className='flex items-center justify-center overflow-hidden p-[40px]'>
-                    <video src='/image/a.mp4' controls width={800} height={500}>
+                <div className='flex items-center justify-center overflow-hidden p-[30px]'>
+                    <video src='/image/a.mp4' controls width={850} height={500}>
                     </video>
                 </div>
             </div>

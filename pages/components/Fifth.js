@@ -17,11 +17,11 @@ function Fifth() {
                     ADVISORS <br />
                 </p>
             </div>
-            <div className='flex flex-col items-start mt-[60px] w-1/4'>
+            <div className='flex flex-col items-start mt-[60px] w-1/4 ml-[-20px]'>
                 <div className='rounded-full w-[500px] h-[500px] items-start bg-cover'>
                     <Image src={ilan} className='p-1 bg-cover'/>
                 </div>
-                <div className='mt-[20px] flex-col'>
+                <div className='mt-[20px] flex-col ml-[20px]'>
                     <p className='text-white text-[30px] font-bold'>
                         Ilan Klein
                     </p>
@@ -34,7 +34,7 @@ function Fifth() {
                         </a>
                     </div>
                 </div>
-                <div className='mt-[30px]'>
+                <div className='mt-[30px] ml-[20px]'>
                     <p className='text-[#FFFFFF] text-[20px]'>
                     Ilan worked for 15+ years in <br />
                     the digital marketing space <br />
@@ -185,7 +185,7 @@ function Fifth() {
                 </div>
             </div>
             <div className='flex flex-col items-start mt-[50px] w-1/4'>
-                <div className='rounded-full w-[210px] h-[210px] items-start bg-cover mt-[10px]'>
+                <div className='rounded-full w-[210px] h-[210px] items-start bg-cover mt-[10px] ml-[-25px]'>
                     <Image src={jamil} className='p-1 bg-cover rounded-full'/>
                 </div>
                 <div className='mt-[20px] flex-col'>

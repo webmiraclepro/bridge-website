@@ -26,7 +26,7 @@ function Header() {
           </button>
         </div>
         <div className='w-1/2 flex'>
-          <div className='flex space-x-6 mt-[60px] content-start w-4/5'>
+          <div className='flex space-x-7 mt-[80px] content-start w-4/5'>
             <a className='bg-white rounded-full w-10 h-10' href='https://twitter.com/nft_bridges' target='_blank' rel="noreferrer">
               <Image src={twitterIcon} className='p-1'/>
             </a>
@@ -37,7 +37,7 @@ function Header() {
               <Image src={telegramIcon} className='p-2'/>
             </a>
           </div>
-          <div className='w-14 h-14 mt-[50px]'>
+          <div className='w-14 h-14 mt-[70px]'>
             <button>
               <Image src={menuIcon} onClick={() => router.push('/Contact')} />
             </button>
