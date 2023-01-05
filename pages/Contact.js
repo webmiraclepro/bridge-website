@@ -3,8 +3,22 @@ import React from 'react'
 import Header from './components/Header'
 import Footer from './components/Footer'
 import {useState} from 'react'
+import { useEffect, useRef } from "react"
 
 function Contact() {
+  const [open, setOpen] = useState(false);
+  const [listValue, setListValue] = useState();
+  const ref = useRef();
+  useEffect(() => {
+      if(!ref.current) return
+      const onclick = (e) => {
+          setOpen(false)   
+      }
+      window.addEventListener('click', onclick);
+      return () => {
+          window.removeEventListener('click', onclick);
+      }
+  }, [ref])
   return (
     <div>
       <div className="w-full h-[1110px] bg-[url('../public/image/Backgrouns-04.jpg')] bg-cover flex-col">
@@ -35,13 +49,36 @@ function Contact() {
                       className='w-[700px] h-[30px] rounded-full pl-[15px]'/>
                     </div>
                     <div className='mt-[15px]'>
-                      <input placeholder='Email' name='Email'
+                      <input placeholder='Email' name='From'
                       className='w-[700px] h-[30px] rounded-full pl-[15px]'/>
                     </div>
                     <div className='flex'>
                       <div className='mt-[15px]'>
-                        <input placeholder='I am a ...' name='Job'
-                        className='w-[340px] h-[30px] rounded-full pl-[15px]'/>
+                        <div className="relative z-40 w-[340px]" ref={ref} onClick={e => {e.stopPropagation()}}>
+                          <input 
+                            placeholder='I am a ...'
+                            value={listValue}
+                            onChange={(e) => onChange(e.target.value)}
+                            onClick={() => setOpen(true)}
+                            className="w-4px px-2 py-1 text-right text-black bg-white rounded-full w-[340px]" />
+                            {
+                              open &&
+                              <div className="absolute mt-[30px] rounded-lg px-[8px] mt-[-2px] flex flex-col bg-white w-full text-right px-[8px] rounded-b-[4px] cursor-pointer" style={{color: "grey"}}>             
+                                <div onClick={() => {setOpen(false), setListValue("Collection")}} name="Collection">
+                                    Collection
+                                </div>
+                                <div onClick={() => {setOpen(false), setListValue("NFT market")}} name="NFT market">
+                                    NFT market
+                                </div>
+                                <div onClick={() => {setOpen(false), setListValue("Blockchain")}} name="Blockchain">
+                                    Blockchain
+                                </div>
+                                <div onClick={() => {setOpen(false), setListValue("Other")}} name="Other">
+                                    Other
+                                </div>
+                              </div>
+                            }
+                      </div>
                       </div>
                       <div className='mt-[15px] ml-[20px]'>
                         <input placeholder='Phone' name='Phone'
