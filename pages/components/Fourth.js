@@ -1,9 +1,9 @@
 import React from 'react'
 import Image from 'next/image'
-import leaderIcon from '../../public/image/Blockchain_Leaders_Icon.jpg';
-import marketIcon from '../../public/image/Markets_Icon.jpg';
-import bookIcon from '../../public/image/Collections_Icon.jpg';
-import manIcon from '../../public/image/Collectors_Icon.jpg';
+import leaderIcon from '../../public/image/Blockchain_Leaders_Icon.png';
+import marketIcon from '../../public/image/Markets_Icon.png';
+import bookIcon from '../../public/image/Collections_Icon.png';
+import manIcon from '../../public/image/Collectors_Icon.png';
 import artiesImage from '../../public/image/Artie-7713.jpeg';
 
 function Fourth() {
@@ -92,7 +92,7 @@ function Fourth() {
             </div>
             <div className='w-1/4 mt-[60px]'>
                 <div className='flex flex-col items-start'>
-                    <div className='bg-white rounded-full w-30 h-30 items-start overflow-hidden ml-[-15px]'>
+                    <div className='rounded-full w-30 h-30 items-start overflow-hidden ml-[-15px]'>
                         <Image src={manIcon} className=''/>
                     </div>
                     <div className='mt-[30px] tracking-4'>

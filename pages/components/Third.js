@@ -3,8 +3,8 @@ import ReactPlayer from 'react-player'
 // import myVideo from '../../public/image/a.mp4'
 function Third() {
   return (
-    <div className='bg-black w-full h-[900px] flex'>
-        <div className='w-1/4 flex flex-col justify-center ml-[70px]'>
+    <div className='bg-black w-full h-[900px] flex px-[70px]'>
+        <div className='w-1/4 flex flex-col justify-center'>
             <p className='text-[#42EBC8] text-[35px] font-Exo2 tracking-2'>
                 BUILDING <br />
                 SECURE NFT <br />
@@ -19,12 +19,10 @@ function Third() {
                 and collectors.<br />
             </p>
         </div>
-        <div className='w-3/4 h-full flex flex-col items-center justify-center'>
-            <div className='!border-[3px] !border-[#42EBC8] rounded-[50px] text-white'>
-                <div className='flex items-center justify-center overflow-hidden p-[30px]'>
-                    <video src='/image/a.mp4' controls width={1250} height={800}>
-                    </video>
-                </div>
+        <div className='w-3/4 h-full flex flex-col justify-center'>
+            <div className='flex overflow-hidden'>
+                <video src='/image/a.mp4' controls width={1250} height={800} className='!border-[5px] p-[50px] !border-[#42EBC8] rounded-[50px]'>
+                </video>
             </div>
         </div>
     </div>
