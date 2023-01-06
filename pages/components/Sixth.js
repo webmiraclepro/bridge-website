@@ -12,10 +12,10 @@ function Sixth() {
             SYSTEM? <br />
           </p>
         </div>
-        <div className='mt-[70px] flex px-[70px] tracking-1'>
+        <div className='mt-[70px] flex px-[70px] tracking-1 font-Barlow font-semibold'>
           <div className='w-1/2 '>
             <div>
-              <p className='text-[#42EBC8] text-[30px]'>
+              <p className='text-[#42EBC8] text-[30px] font-exrabold'>
                 Current situation
               </p>
             </div>
@@ -56,7 +56,7 @@ function Sixth() {
           </div>
           <div className='w-1/2 mt-[-45px]'>
             <div>
-              <p className='text-[#42EBC8] text-[30px]'>
+              <p className='text-[#42EBC8] text-[30px] font-extrabold'>
                 We are building a set<br />
                 of bridges that allows
               </p>

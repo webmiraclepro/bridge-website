@@ -22,7 +22,7 @@ function Fourth() {
                         </p>
                     </div>
                     <div className='mt-[40px] tracking-1'>
-                        <p className='text-[#FFFFFF] text-[20px] tracking-1'>
+                        <p className='text-[#FFFFFF] text-[20px] tracking-1 font-Barlow font-semibold'>
                         How can you attract more  <br />
                         transactions to your chain? <br />
                         Encourage collectors to <br />
@@ -50,7 +50,7 @@ function Fourth() {
                         </p>
                     </div>
                     <div className='mt-[40px] tracking-1'>
-                        <p className='text-[#FFFFFF] text-[20px] tracking-1'>
+                        <p className='text-[#FFFFFF] text-[20px] tracking-1 font-Barlow font-semibold'>
                         Markets thrive when they are <br />
                         stocked with exciting NFT <br />
                         collections. And with NFT <br />
@@ -77,7 +77,7 @@ function Fourth() {
                         </p>
                     </div>
                     <div className='mt-[40px] tracking-1'>
-                        <p className='text-[#FFFFFF] text-[20px] tracking-1'>
+                        <p className='text-[#FFFFFF] text-[20px] tracking-1 font-Barlow font-semibold'>
                         When you’re releasing a <br />
                         collection, the pressure is <br />
                         on! By offering your collection<br />
@@ -102,7 +102,7 @@ function Fourth() {
                         </p>
                     </div>
                     <div className='mt-[40px] tracking-1'>
-                        <p className='text-[#FFFFFF] text-[20px] tracking-1'>
+                        <p className='text-[#FFFFFF] text-[20px] tracking-1 font-Barlow font-semibold'>
                         Enjoy arbitrage opportunities <br />
                         for your NFTs by buying and <br />
                         selling strategically on <br />

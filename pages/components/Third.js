@@ -10,7 +10,7 @@ function Third() {
                 SECURE NFT <br />
                 BRIDGES<br />
             </p>
-            <p className='text-white text-[25px] mt-[40px] font-Exo2 tracking-widest'>
+            <p className='text-white text-[25px] mt-[40px] tracking-1 font-Barlow font-semibold'>
                 NFT Bridges make it possible <br />
                 to move NFTs securely from<br />
                 one blockchain to another,<br />

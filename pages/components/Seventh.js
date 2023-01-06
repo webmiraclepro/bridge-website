@@ -21,7 +21,7 @@ function Seventh() {
                     </div>
                 </div>
             </div>
-            <div className='flex-col items-start justify-center mt-[130px] w-3/4 tracking-1'>
+            <div className='flex-col items-start justify-center mt-[130px] w-3/4 tracking-1 font-Barlow font-semibold'>
                 <div className=''>
                     <p className='text-white text-[20px]'>
                         When it comes to Web3, security is a prime concern, and we’ve made NFT Bridges as secure <br />

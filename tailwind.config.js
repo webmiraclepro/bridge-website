@@ -8,6 +8,7 @@ module.exports = {
     extend: {},
     fontFamily: {
       'Exo2' : ['"Exo 2"', 'sans-serif'],
+      'Barlow' : ['"Barlow"'],
     },
     letterSpacing:{
       '1': '0.05em',

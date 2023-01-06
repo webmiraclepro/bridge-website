@@ -10,7 +10,7 @@ function Second() {
                 <Image src={spaceWhalesImage}/>
             </div>
         </div>
-        <div className='w-3/4 flex-col items-start justify-center font-Exo2'>
+        <div className='w-3/4 flex-col items-start justify-center'>
             <div>
                 <p className='text-[#42EBC8] text-[40px] font-Exo2 mt-[50px] tracking-1'>
                     ARE YOUR NFTS STUCK ON THEIR <br />
@@ -21,12 +21,12 @@ function Second() {
                 </p>
             </div>
             <div className='mt-[50px]'>
-                <p className='text-white text-[38px] tracking-1'>
+                <p className='text-white text-[38px] tracking-1 font-Barlow font-bold'>
                     What if you could transfer your Eth-based NFTs to <br />
                     another blockchain, or vice versa? Now, you can. <br />
                 </p>
             </div>
-            <div className='mt-[20px] font-Exo2'>
+            <div className='mt-[20px] font-Barlow font-semibold'>
                 <p className='text-white text-[25px] tracking-1'>
                 We’re developing technology that will change the landscape for everyone involved with <br />
                 Web3. As NFTs become more mobile, blockchains will enjoy more liquidity and higher <br />
@@ -36,14 +36,14 @@ function Second() {
                 notice on various chains and moving their assets to the most advantageous environments. <br />
                 </p>
             </div>
-            <div className='mt-[20px]'>
+            <div className='mt-[20px] font-Barlow font-semibold'>
                 <p className='text-white text-[25px] tracking-1'>
                 Best of all, NFT Bridges are non-custodial. It’s your lock and your key; you’re in charge of <br />
                 your own fate. We never have access to your NFTs. To increase security, we developed <br />
                 Bridge Monitors, which verify transactions and keep transfers running smoothly.<br />
                 </p>
             </div>
-            <div className='mt-[20px]'>
+            <div className='mt-[20px] font-Barlow font-semibold'>
                 <p className='text-white text-[25px] tracking-1'>
                 Our experienced group of developers and advisors are Web3.0 veterans who have seen the  <br />
                 ups and downs of the NFT market. With a deep understanding of multiple blockchains and <br />

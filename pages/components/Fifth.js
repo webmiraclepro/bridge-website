@@ -35,7 +35,7 @@ function Fifth() {
                     </div>
                 </div>
                 <div className='mt-[30px]'>
-                    <p className='text-[#FFFFFF] text-[20px] tracking-1'>
+                    <p className='text-[#FFFFFF] text-[20px] tracking-1 font-Barlow font-semibold'>
                     Ilan worked for 15+ years in <br />
                     the digital marketing space <br />
                     before transitioning to Web3.<br />
@@ -69,7 +69,7 @@ function Fifth() {
                     </div>
                 </div>
                 <div className='mt-[30px]'>
-                    <p className='text-[#FFFFFF] text-[20px] tracking-1'>
+                    <p className='text-[#FFFFFF] text-[20px] tracking-1 font-Barlow font-semibold'>
                     Founder and Creative Director <br />
                     of Flying Machine, a New York<br />
                     -based branding and design <br />
@@ -102,7 +102,7 @@ function Fifth() {
                     </div>
                 </div>
                 <div className='mt-[30px]'>
-                    <p className='text-[#FFFFFF] text-[20px] tracking-1'>
+                    <p className='text-[#FFFFFF] text-[20px] tracking-1 font-Barlow font-semibold'>
                     For the past five years, Ethan <br />
                     has worked with alternative <br />
                     investments in Singapore. He <br />
@@ -137,7 +137,7 @@ function Fifth() {
                     </div>
                 </div>
                 <div className='mt-[30px]'>
-                    <p className='text-[#FFFFFF] text-[20px] tracking-1'>
+                    <p className='text-[#FFFFFF] text-[20px] tracking-1 font-Barlow font-semibold'>
                         Trevor is an entrepreneur, <br />
                         author, and investor in <br />
                         early-stage startups. He is <br />
@@ -171,7 +171,7 @@ function Fifth() {
                     </div>
                 </div>
                 <div className='mt-[30px]'>
-                    <p className='text-[#FFFFFF] text-[20px] tracking-1'>
+                    <p className='text-[#FFFFFF] text-[20px] tracking-1 font-Barlow font-semibold'>
                         Luis Ramirez is an advisor  <br />
                         for the SpaceLabs team. He <br />
                         is also a Community Growth <br />
@@ -202,7 +202,7 @@ function Fifth() {
                     </div>
                 </div>
                 <div className='mt-[30px]'>
-                    <p className='text-[#FFFFFF] text-[20px] tracking-1'>
+                    <p className='text-[#FFFFFF] text-[20px] tracking-1 font-Barlow font-semibold'>
                         Jamil is the Founder and <br />
                         CEO of Gamma.io, the leading <br />
                         marketplace and creator <br />
