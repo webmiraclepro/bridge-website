@@ -63,19 +63,23 @@ function Contact() {
                             className="w-4px px-2 py-1 text-right text-black bg-white rounded-full w-[340px]" />
                             {
                               open &&
-                              <div className="absolute mt-[30px] rounded-lg px-[8px] mt-[-2px] flex flex-col bg-white w-full text-right px-[8px] rounded-b-[4px] cursor-pointer" style={{color: "grey"}}>             
+                              <div className="absolute mt-[3px] rounded-lg px-[8px] flex flex-col bg-white w-full text-right rounded-b-[4px] cursor-pointer" style={{color: "black"}}>             
                                 <div onClick={() => {setOpen(false), setListValue("Collection")}} name="Collection">
                                     Collection
                                 </div>
+                                <hr />
                                 <div onClick={() => {setOpen(false), setListValue("NFT market")}} name="NFT market">
                                     NFT market
                                 </div>
+                                <hr />
                                 <div onClick={() => {setOpen(false), setListValue("Blockchain")}} name="Blockchain">
                                     Blockchain
                                 </div>
+                                <hr />
                                 <div onClick={() => {setOpen(false), setListValue("Other")}} name="Other">
                                     Other
                                 </div>
+                                <hr />
                               </div>
                             }
                       </div>

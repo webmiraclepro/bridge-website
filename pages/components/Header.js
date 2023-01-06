@@ -13,13 +13,6 @@ import { useEffect } from 'react';
 function Header() {
   
   const router = useRouter();
-  
-  const goToTop = () => {
-    window.scrollTo({
-        top: 0,
-        behavior: 'smooth',
-    });
-  };
 
   const [open, setOpen] = useState(false);
   const ref = useRef();
@@ -52,14 +45,14 @@ function Header() {
               <Image src={telegramIcon} className='p-2'/>
             </a>
           </div>
-          <div className='w-14 h-14 mt-[70px]'>
-            <button id="dropdownDefaultButton" data-dropdown-toggle="dropdown" type='button' onClick={() => setOpen(true)} onChange={(e) => onChange(e.target.value)}>
+          <div className='w-14 h-14 mt-[70px]' ref={ref} onClick={e => {e.stopPropagation()}}>
+            <button type='button' onClick={() => setOpen(true)} onChange={(e) => onChange(e.target.value)}>
               <Image src={menuIcon} />
             </button>
             {
               open &&
-              <div className="flex flex-col bg-white w-[150px] text-center px-[8px] rounded-[15px]" style={{color: "grey"}}>             
-                <div>
+              <div className="flex flex-col bg-white w-[150px] text-center px-[8px] rounded-[15px]" style={{color: "black"}}>             
+                <div className='mt-[5px]'>
                   <a href='https://testnet.nftbridges.xyz' target='_blank' rel="noreferrer">
                     NFT BRIDGE
                   </a>
