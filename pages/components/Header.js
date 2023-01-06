@@ -60,7 +60,7 @@ function Header() {
               open &&
               <div className="flex flex-col bg-white w-[150px] text-center px-[8px] rounded-[15px]" style={{color: "grey"}}>             
                 <div>
-                  <a href='https://testnet.nftbridges.xyz' target='_blank'>
+                  <a href='https://testnet.nftbridges.xyz' target='_blank' rel="noreferrer">
                     NFT BRIDGE
                   </a>
                 </div>
