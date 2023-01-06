@@ -18,8 +18,8 @@ function Fifth() {
                 </p>
             </div>
             <div className='flex flex-col items-start mt-[60px] w-1/4'>
-                <div className='w-[360px] h-[360px] items-start bg-cover mt-[10px] ml-[-20px]'>
-                    <Image src={ilan} className='bg-cover rounded-full'/>
+                <div className='rounded-full w-[200px] h-[200px] items-start bg-cover mt-[10px] ml-[-20px]'>
+                    <Image src={ilan} className='rounded-full'/>
                 </div>
                 <div className='mt-[20px] flex-col font-Exo2'>
                     <p className='text-white text-[30px] font-bold'>

@@ -6,6 +6,9 @@ import discordIcon from "../../public/image/discord.png";
 import telegramIcon from "../../public/image/telegram.png";
 import menuIcon from "../../public/image/menu.png";
 import { useRouter } from 'next/router';
+import { useState } from 'react';
+import { useRef } from 'react';
+import { useEffect } from 'react';
 
 function Header() {
   
@@ -17,6 +20,19 @@ function Header() {
         behavior: 'smooth',
     });
   };
+
+  const [open, setOpen] = useState(false);
+  const ref = useRef();
+  useEffect(() => {
+      if(!ref.current) return
+      const onclick = (e) => {
+          setOpen(false)   
+      }
+      window.addEventListener('click', onclick);
+      return () => {
+          window.removeEventListener('click', onclick);
+      }
+  }, [ref])
   return (
     <div className="w-full h-[150px] flex">
         <div className='w-1/2 pl-[20px] pt-[40px] flex items-center'>
@@ -37,9 +53,34 @@ function Header() {
             </a>
           </div>
           <div className='w-14 h-14 mt-[70px]'>
-            <button>
-              <Image src={menuIcon} onClick={() => router.push('/Contact')} />
+            <button id="dropdownDefaultButton" data-dropdown-toggle="dropdown" type='button' onClick={() => setOpen(true)} onChange={(e) => onChange(e.target.value)}>
+              <Image src={menuIcon} />
             </button>
+            {
+              open &&
+              <div className="flex flex-col bg-white w-[150px] text-center px-[8px] rounded-[15px]" style={{color: "grey"}}>             
+                <div>
+                  <a href='https://testnet.nftbridges.xyz' target='_blank'>
+                    NFT BRIDGE
+                  </a>
+                </div>
+                <hr />
+                <button className='mt-[5px]' onClick={() => router.push('/Contact')}>
+                  CONTACT
+                </button>
+              </div>
+            }
+            <div id="dropdown" class="z-10 hidden bg-white divide-y divide-gray-100 rounded shadow w-44 dark:bg-gray-700">
+              <ul class="py-1 text-sm text-gray-700 dark:text-gray-200" aria-labelledby="dropdownDefaultButton">
+                <li>
+                  <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">NFT BRIDGE</a>
+                </li>
+                <li>
+                  <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">CONTACT</a>
+                </li>
+
+              </ul>
+          </div>
           </div>
         </div>
     </div>
