@@ -29,7 +29,7 @@ function Contact() {
           <div className='flex'>
               <div className='flex-col mt-[120px] justify-center items-center ml-[70px]'>
                   <div className=''>
-                      <p className='text-[40px] text-[#42EBC8] font-Exo2'>
+                      <p className='text-[40px] text-[#42EBC8] font-Exo2 tracking-2'>
                           BRIDGE <br />
                           YOUR NFT<br />
                           COLLECTION<br />

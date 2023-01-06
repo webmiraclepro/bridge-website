@@ -11,7 +11,7 @@ function Fifth() {
   return (
     <div className="w-full h-[1500px] bg-[url('../public/image/Backgrouns-05.jpg')] bg-cover flex-col">
         <div className='w-full h-[600px] flex px-[70px]'>
-            <div className='flex flex-col items-start mt-[80px] w-1/4'>
+            <div className='flex flex-col items-start mt-[80px] w-1/4 tracking-3'>
                 <p className='text-[#42EBC8] text-[40px] font-Exo2'> 
                     TEAM AND <br />
                     ADVISORS <br />
@@ -21,7 +21,7 @@ function Fifth() {
                 <div className='w-[360px] h-[360px] items-start bg-cover mt-[10px] ml-[-20px]'>
                     <Image src={ilan} className='bg-cover rounded-full'/>
                 </div>
-                <div className='mt-[20px] flex-col'>
+                <div className='mt-[20px] flex-col font-Exo2'>
                     <p className='text-white text-[30px] font-bold'>
                         Ilan Klein
                     </p>
@@ -35,7 +35,7 @@ function Fifth() {
                     </div>
                 </div>
                 <div className='mt-[30px]'>
-                    <p className='text-[#FFFFFF] text-[20px]'>
+                    <p className='text-[#FFFFFF] text-[20px] tracking-1'>
                     Ilan worked for 15+ years in <br />
                     the digital marketing space <br />
                     before transitioning to Web3.<br />
@@ -55,7 +55,7 @@ function Fifth() {
                 <div className='rounded-full w-[160px] h-[160px] items-start bg-cover mt-[10px]'>
                     <Image src={micha} className='p-1 bg-cover rounded-full'/>
                 </div>
-                <div className='mt-[20px] flex-col'>
+                <div className='mt-[20px] flex-col font-Exo2'>
                     <p className='text-white text-[30px] font-bold'>
                         Micha Riss
                     </p>
@@ -69,7 +69,7 @@ function Fifth() {
                     </div>
                 </div>
                 <div className='mt-[30px]'>
-                    <p className='text-[#FFFFFF] text-[20px]'>
+                    <p className='text-[#FFFFFF] text-[20px] tracking-1'>
                     Founder and Creative Director <br />
                     of Flying Machine, a New York<br />
                     -based branding and design <br />
@@ -88,7 +88,7 @@ function Fifth() {
                 <div className='rounded-full w-[160px] h-[160px] items-start bg-cover mt-[10px]'>
                     <Image src={ethan} className='p-1 bg-cover rounded-full'/>
                 </div>
-                <div className='mt-[20px] flex-col '>
+                <div className='mt-[20px] flex-col font-Exo2'>
                     <p className='text-white text-[30px] font-bold'>
                         Ethan Tan
                     </p>
@@ -102,7 +102,7 @@ function Fifth() {
                     </div>
                 </div>
                 <div className='mt-[30px]'>
-                    <p className='text-[#FFFFFF] text-[20px]'>
+                    <p className='text-[#FFFFFF] text-[20px] tracking-1'>
                     For the past five years, Ethan <br />
                     has worked with alternative <br />
                     investments in Singapore. He <br />
@@ -123,7 +123,7 @@ function Fifth() {
                 <div className='w-[160px] h-[160px] items-start'>
                     <Image src={trevor} className='p-1 bg-cover rounded-full'/>
                 </div>
-                <div className='mt-[20px] flex-col'>
+                <div className='mt-[20px] flex-col font-Exo2'>
                     <p className='text-white text-[30px] font-bold'>
                         Trevor Owens
                     </p>
@@ -137,7 +137,7 @@ function Fifth() {
                     </div>
                 </div>
                 <div className='mt-[30px]'>
-                    <p className='text-[#FFFFFF] text-[20px]'>
+                    <p className='text-[#FFFFFF] text-[20px] tracking-1'>
                         Trevor is an entrepreneur, <br />
                         author, and investor in <br />
                         early-stage startups. He is <br />
@@ -157,7 +157,7 @@ function Fifth() {
                 <div className='rounded-full w-[160px] h-[160px] items-start bg-cover mt-[10px]'>
                     <Image src={luis} className='p-1 bg-cover rounded-full'/>
                 </div>
-                <div className='mt-[20px] flex-col'>
+                <div className='mt-[20px] flex-col font-Exo2'>
                     <p className='text-white text-[30px] font-bold'>
                         Luis Ramirez
                     </p>
@@ -171,7 +171,7 @@ function Fifth() {
                     </div>
                 </div>
                 <div className='mt-[30px]'>
-                    <p className='text-[#FFFFFF] text-[20px]'>
+                    <p className='text-[#FFFFFF] text-[20px] tracking-1'>
                         Luis Ramirez is an advisor  <br />
                         for the SpaceLabs team. He <br />
                         is also a Community Growth <br />
@@ -188,7 +188,7 @@ function Fifth() {
                 <div className='rounded-full w-[210px] h-[210px] items-start bg-cover mt-[10px] ml-[-25px]'>
                     <Image src={jamil} className='p-1 bg-cover rounded-full'/>
                 </div>
-                <div className='mt-[20px] flex-col'>
+                <div className='mt-[20px] flex-col font-Exo2'>
                     <p className='text-white text-[30px] font-bold'>
                         Jamil Dhanani
                     </p>
@@ -202,7 +202,7 @@ function Fifth() {
                     </div>
                 </div>
                 <div className='mt-[30px]'>
-                    <p className='text-[#FFFFFF] text-[20px]'>
+                    <p className='text-[#FFFFFF] text-[20px] tracking-1'>
                         Jamil is the Founder and <br />
                         CEO of Gamma.io, the leading <br />
                         marketplace and creator <br />

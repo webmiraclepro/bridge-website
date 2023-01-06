@@ -11,7 +11,7 @@ function Seventh() {
         <div className='flex'>
             <div className='flex-col mt-[120px] justify-center items-center w-1/4'>
                 <div className='ml-[70px] '>
-                    <p className='text-[40px] text-[#42EBC8] font-Exo2'>
+                    <p className='text-[40px] text-[#42EBC8] font-Exo2 tracking-2'>
                         SECURITY
                     </p>
                 </div>
@@ -21,7 +21,7 @@ function Seventh() {
                     </div>
                 </div>
             </div>
-            <div className='flex-col items-start justify-center mt-[130px] w-3/4'>
+            <div className='flex-col items-start justify-center mt-[130px] w-3/4 tracking-1'>
                 <div className=''>
                     <p className='text-white text-[20px]'>
                         When it comes to Web3, security is a prime concern, and we’ve made NFT Bridges as secure <br />

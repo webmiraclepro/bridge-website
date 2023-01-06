@@ -14,7 +14,7 @@ function First() {
           <Image src={crashPunksImage} className='w-[700px] h-[700px] rounded-full p-[80px]' />
         </div>
         <div className='w-1/2 space-y-4'>
-          <div className='flex'>
+          <div className='flex tracking-4'>
             <p className='text-[#42EBC8] text-[75px] font-bold'>
               NFT 
             </p>
@@ -22,7 +22,7 @@ function First() {
               BRIDGES
             </p> 
           </div>
-          <div className="flex flex-col font-Exo2">
+          <div className="flex flex-col font-Exo2 tracking-4">
             <p className='text-white text-[35px]'>
               BUILDING THE
             </p> 

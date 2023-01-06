@@ -4,7 +4,6 @@ import nftBridgeImage from "../../public/SVG_LINKS/NFT_BRIDGES_LOGO.png";
 import twitterIcon from "../../public/image/twitter.png";
 import discordIcon from "../../public/image/discord.png";
 import telegramIcon from "../../public/image/telegram.png";
-import youtubeIcon from "../../public/image/youtube.png";
 import menuIcon from "../../public/image/menu.png";
 import { useRouter } from 'next/router';
 
@@ -22,7 +21,7 @@ function Header() {
     <div className="w-full h-[150px] flex">
         <div className='w-1/2 pl-[20px] pt-[40px] flex items-center'>
           <button>
-            <Image src={nftBridgeImage} width={300} height={180} className='flex object-cover p-[50px]' onClick={() => router.push('/')} />
+            <Image src={nftBridgeImage} width={350} height={200} className='flex object-cover p-[50px]' onClick={() => router.push('/')} />
           </button>
         </div>
         <div className='w-1/2 flex'>

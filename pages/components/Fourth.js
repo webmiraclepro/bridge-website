@@ -8,21 +8,21 @@ import artiesImage from '../../public/image/Artie-7713.jpeg';
 
 function Fourth() {
   return (
-    <div className="w-full h-[800px] bg-[url('../public/image/Backgrouns-04.jpg')] bg-cover flex-col">
+    <div className="w-full h-[800px] bg-[url('../public/image/Backgrouns-04.jpg')] bg-cover flex-col tracking-wide">
         <div className='w-full h-[600px] flex px-[70px]'>
             <div className='w-1/4 mt-[60px]'>
                 <div className='flex flex-col items-start'>
                     <div className='rounded-full w-30 h-30 items-start overflow-hidden ml-[-10px]'>
                         <Image src={leaderIcon}/>
                     </div>
-                    <div className='mt-[30px]'>
+                    <div className='mt-[30px] tracking-4'>
                         <p className='text-[#42EBC8] text-[30px] font-Exo2'>
                             BLOCKCHAIN <br />
                             LEADERS <br />
                         </p>
                     </div>
-                    <div className='mt-[40px]'>
-                        <p className='text-[#FFFFFF] text-[20px]'>
+                    <div className='mt-[40px] tracking-1'>
+                        <p className='text-[#FFFFFF] text-[20px] tracking-1'>
                         How can you attract more  <br />
                         transactions to your chain? <br />
                         Encourage collectors to <br />
@@ -43,14 +43,14 @@ function Fourth() {
                     <div className='rounded-full w-30 h-30 items-start ml-[-15px]'>
                         <Image src={marketIcon} className=''/>
                     </div>
-                    <div className='mt-[30px]'>
+                    <div className='mt-[30px] tracking-4'>
                         <p className='text-[#42EBC8] text-[30px] font-Exo2'>
                             MARKETS <br />
                             <br />
                         </p>
                     </div>
-                    <div className='mt-[40px]'>
-                        <p className='text-[#FFFFFF] text-[20px]'>
+                    <div className='mt-[40px] tracking-1'>
+                        <p className='text-[#FFFFFF] text-[20px] tracking-1'>
                         Markets thrive when they are <br />
                         stocked with exciting NFT <br />
                         collections. And with NFT <br />
@@ -70,14 +70,14 @@ function Fourth() {
                     <div className='rounded-full w-30 h-30 items-start ml-[-15px]'>
                         <Image src={bookIcon} className=''/>
                     </div>
-                    <div className='mt-[30px]'>
+                    <div className='mt-[30px] tracking-4'>
                         <p className='text-[#42EBC8] text-[30px] font-Exo2'>
                             COLLECTIONS <br />
                             <br />
                         </p>
                     </div>
-                    <div className='mt-[40px]'>
-                        <p className='text-[#FFFFFF] text-[20px]'>
+                    <div className='mt-[40px] tracking-1'>
+                        <p className='text-[#FFFFFF] text-[20px] tracking-1'>
                         When you’re releasing a <br />
                         collection, the pressure is <br />
                         on! By offering your collection<br />
@@ -95,14 +95,14 @@ function Fourth() {
                     <div className='bg-white rounded-full w-30 h-30 items-start overflow-hidden ml-[-15px]'>
                         <Image src={manIcon} className=''/>
                     </div>
-                    <div className='mt-[30px]'>
+                    <div className='mt-[30px] tracking-4'>
                         <p className='text-[#42EBC8] text-[30px] font-Exo2'>
                             COLLECTORS <br />
                             <br />
                         </p>
                     </div>
-                    <div className='mt-[40px]'>
-                        <p className='text-[#FFFFFF] text-[20px]'>
+                    <div className='mt-[40px] tracking-1'>
+                        <p className='text-[#FFFFFF] text-[20px] tracking-1'>
                         Enjoy arbitrage opportunities <br />
                         for your NFTs by buying and <br />
                         selling strategically on <br />

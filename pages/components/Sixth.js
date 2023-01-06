@@ -6,13 +6,13 @@ function Sixth() {
   return (
     <div className='w-full h-[900px] bg-black flex-col'>
         <div className='mt-[70px] px-[70px]'>
-          <p className='text-[#42EBC8] text-[40px] font-Exo2'>
+          <p className='text-[#42EBC8] text-[40px] font-Exo2 tracking-2'>
             WHY USE <br />
             THE NFT BRIDGES <br />
             SYSTEM? <br />
           </p>
         </div>
-        <div className='mt-[70px] flex px-[70px]'>
+        <div className='mt-[70px] flex px-[70px] tracking-1'>
           <div className='w-1/2 '>
             <div>
               <p className='text-[#42EBC8] text-[30px]'>
