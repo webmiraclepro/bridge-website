@@ -1,6 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
-import ilan from '../../public/image/ILAN.png';
+import ilan from '../../public/image/ILAN2.png';
 import micha from '../../public/image/Micha.jpg';
 import ethan from '../../public/image/Ethan.jpg';
 import trevor from '../../public/image/Trevor_Owens.png';
@@ -10,18 +10,18 @@ import jamil from '../../public/image/JAMIL.png';
 function Fifth() {
   return (
     <div className="w-full h-[1500px] bg-[url('../public/image/Backgrouns-05.jpg')] bg-cover flex-col">
-        <div className='w-full h-[600px] flex'>
-            <div className='flex flex-col items-start mt-[80px] w-1/4 ml-[70px]'>
+        <div className='w-full h-[600px] flex px-[70px]'>
+            <div className='flex flex-col items-start mt-[80px] w-1/4'>
                 <p className='text-[#42EBC8] text-[40px] font-Exo2'> 
                     TEAM AND <br />
                     ADVISORS <br />
                 </p>
             </div>
-            <div className='flex flex-col items-start mt-[60px] w-1/4 ml-[-20px]'>
-                <div className='rounded-full w-[500px] h-[500px] items-start bg-cover'>
-                    <Image src={ilan} className='p-1 bg-cover'/>
+            <div className='flex flex-col items-start mt-[60px] w-1/4'>
+                <div className='w-[360px] h-[360px] items-start bg-cover mt-[10px] ml-[-20px]'>
+                    <Image src={ilan} className='bg-cover rounded-full'/>
                 </div>
-                <div className='mt-[20px] flex-col ml-[20px]'>
+                <div className='mt-[20px] flex-col'>
                     <p className='text-white text-[30px] font-bold'>
                         Ilan Klein
                     </p>
@@ -34,7 +34,7 @@ function Fifth() {
                         </a>
                     </div>
                 </div>
-                <div className='mt-[30px] ml-[20px]'>
+                <div className='mt-[30px]'>
                     <p className='text-[#FFFFFF] text-[20px]'>
                     Ilan worked for 15+ years in <br />
                     the digital marketing space <br />
@@ -118,8 +118,8 @@ function Fifth() {
                 </div>
             </div>
         </div>
-        <div className='w-full h-[600px] flex mt-[130px]'>
-            <div className='flex flex-col items-start mt-[70px] w-1/4 ml-[70px]'>
+        <div className='w-full h-[600px] flex mt-[130px] px-[70px]'>
+            <div className='flex flex-col items-start w-1/4 mt-[70px]'>
                 <div className='w-[160px] h-[160px] items-start'>
                     <Image src={trevor} className='p-1 bg-cover rounded-full'/>
                 </div>

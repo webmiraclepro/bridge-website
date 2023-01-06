@@ -9,102 +9,110 @@ import artiesImage from '../../public/image/Artie-7713.jpeg';
 function Fourth() {
   return (
     <div className="w-full h-[800px] bg-[url('../public/image/Backgrouns-04.jpg')] bg-cover flex-col">
-        <div className='w-full h-[600px] flex'>
-            <div className='flex flex-col items-start mt-[60px] w-1/4 ml-[80px]'>
-                <div className='rounded-full w-30 h-30 items-start overflow-hidden ml-[-10px]'>
-                    <Image src={leaderIcon}/>
-                </div>
-                <div className='mt-[30px]'>
-                    <p className='text-[#42EBC8] text-[30px] font-Exo2'>
-                        BLOCKCHAIN <br />
-                        LEADERS <br />
-                    </p>
-                </div>
-                <div className='mt-[40px]'>
-                    <p className='text-[#FFFFFF] text-[20px]'>
-                    How can you attract more  <br />
-                    transactions to your chain? <br />
-                    Encourage collectors to <br />
-                    transfer their NFTs to your <br />
-                    chain to enjoy the benefits <br />
-                    you’ve been building. Our <br />
-                    NFT Bridges make it easy. <br />
-                    With more transactions, <br />
-                    your blockchain will enjoy <br />
-                    greater liquidity and <br />
-                    revenues<br />
-                    </p>
-                </div>
-            </div>
-            <div className='flex flex-col items-start mt-[60px] w-1/4 ml-[5px]'>
-                <div className='rounded-full w-30 h-30 items-start ml-[-15px]'>
-                    <Image src={marketIcon} className=''/>
-                </div>
-                <div className='mt-[30px]'>
-                    <p className='text-[#42EBC8] text-[30px] font-Exo2'>
-                        MARKETS <br />
-                        <br />
-                    </p>
-                </div>
-                <div className='mt-[40px]'>
-                    <p className='text-[#FFFFFF] text-[20px]'>
-                    Markets thrive when they are <br />
-                    stocked with exciting NFT <br />
-                    collections. And with NFT <br />
-                    Bridges, you can attract <br />
-                    collections that have <br />
-                    performed well on other <br />
-                    blockchains. Strengthen <br />
-                    your marketplace with <br />
-                    experienced collectors <br />
-                    and proven collections.<br />
-                    </p>
+        <div className='w-full h-[600px] flex px-[70px]'>
+            <div className='w-1/4 mt-[60px]'>
+                <div className='flex flex-col items-start'>
+                    <div className='rounded-full w-30 h-30 items-start overflow-hidden ml-[-10px]'>
+                        <Image src={leaderIcon}/>
+                    </div>
+                    <div className='mt-[30px]'>
+                        <p className='text-[#42EBC8] text-[30px] font-Exo2'>
+                            BLOCKCHAIN <br />
+                            LEADERS <br />
+                        </p>
+                    </div>
+                    <div className='mt-[40px]'>
+                        <p className='text-[#FFFFFF] text-[20px]'>
+                        How can you attract more  <br />
+                        transactions to your chain? <br />
+                        Encourage collectors to <br />
+                        transfer their NFTs to your <br />
+                        chain to enjoy the benefits <br />
+                        you’ve been building. Our <br />
+                        NFT Bridges make it easy. <br />
+                        With more transactions, <br />
+                        your blockchain will enjoy <br />
+                        greater liquidity and <br />
+                        revenues<br />
+                        </p>
+                    </div>
                 </div>
             </div>
-            <div className='flex flex-col items-start mt-[60px] w-1/4'>
-                <div className='rounded-full w-30 h-30 items-start ml-[-15px]'>
-                    <Image src={bookIcon} className=''/>
-                </div>
-                <div className='mt-[30px]'>
-                    <p className='text-[#42EBC8] text-[30px] font-Exo2'>
-                        COLLECTIONS <br />
-                         <br />
-                    </p>
-                </div>
-                <div className='mt-[40px]'>
-                    <p className='text-[#FFFFFF] text-[20px]'>
-                    When you’re releasing a <br />
-                    collection, the pressure is <br />
-                    on! By offering your collection<br />
-                    on multiple chains at <br />
-                    the same time, you can grow <br />
-                    your collector base, reach a <br />
-                    larger audience, and sell out <br />
-                    quicker.<br />
-                    </p>
+            <div className='w-1/4 mt-[60px]'>
+                <div className='flex flex-col items-start'>
+                    <div className='rounded-full w-30 h-30 items-start ml-[-15px]'>
+                        <Image src={marketIcon} className=''/>
+                    </div>
+                    <div className='mt-[30px]'>
+                        <p className='text-[#42EBC8] text-[30px] font-Exo2'>
+                            MARKETS <br />
+                            <br />
+                        </p>
+                    </div>
+                    <div className='mt-[40px]'>
+                        <p className='text-[#FFFFFF] text-[20px]'>
+                        Markets thrive when they are <br />
+                        stocked with exciting NFT <br />
+                        collections. And with NFT <br />
+                        Bridges, you can attract <br />
+                        collections that have <br />
+                        performed well on other <br />
+                        blockchains. Strengthen <br />
+                        your marketplace with <br />
+                        experienced collectors <br />
+                        and proven collections.<br />
+                        </p>
+                    </div>
                 </div>
             </div>
-            <div className='flex flex-col items-start mt-[60px] w-1/4'>
-                <div className='bg-white rounded-full w-30 h-30 items-start overflow-hidden ml-[-15px]'>
-                    <Image src={manIcon} className=''/>
+            <div className='w-1/4 mt-[60px]'>
+                <div className='flex flex-col items-start'>
+                    <div className='rounded-full w-30 h-30 items-start ml-[-15px]'>
+                        <Image src={bookIcon} className=''/>
+                    </div>
+                    <div className='mt-[30px]'>
+                        <p className='text-[#42EBC8] text-[30px] font-Exo2'>
+                            COLLECTIONS <br />
+                            <br />
+                        </p>
+                    </div>
+                    <div className='mt-[40px]'>
+                        <p className='text-[#FFFFFF] text-[20px]'>
+                        When you’re releasing a <br />
+                        collection, the pressure is <br />
+                        on! By offering your collection<br />
+                        on multiple chains at <br />
+                        the same time, you can grow <br />
+                        your collector base, reach a <br />
+                        larger audience, and sell out <br />
+                        quicker.<br />
+                        </p>
+                    </div>
                 </div>
-                <div className='mt-[30px]'>
-                    <p className='text-[#42EBC8] text-[30px] font-Exo2'>
-                        COLLECTORS <br />
-                        <br />
-                    </p>
-                </div>
-                <div className='mt-[40px]'>
-                    <p className='text-[#FFFFFF] text-[20px]'>
-                    Enjoy arbitrage opportunities <br />
-                    for your NFTs by buying and <br />
-                    selling strategically on <br />
-                    different chains. The best <br />
-                    collectors watch trends on <br />
-                    different blockchains, and <br />
-                    NFT Bridges can help you <br />
-                    capitalize on your knowledge.<br />
-                    </p>
+            </div>
+            <div className='w-1/4 mt-[60px]'>
+                <div className='flex flex-col items-start'>
+                    <div className='bg-white rounded-full w-30 h-30 items-start overflow-hidden ml-[-15px]'>
+                        <Image src={manIcon} className=''/>
+                    </div>
+                    <div className='mt-[30px]'>
+                        <p className='text-[#42EBC8] text-[30px] font-Exo2'>
+                            COLLECTORS <br />
+                            <br />
+                        </p>
+                    </div>
+                    <div className='mt-[40px]'>
+                        <p className='text-[#FFFFFF] text-[20px]'>
+                        Enjoy arbitrage opportunities <br />
+                        for your NFTs by buying and <br />
+                        selling strategically on <br />
+                        different chains. The best <br />
+                        collectors watch trends on <br />
+                        different blockchains, and <br />
+                        NFT Bridges can help you <br />
+                        capitalize on your knowledge.<br />
+                        </p>
+                    </div>
                 </div>
             </div>
         </div>

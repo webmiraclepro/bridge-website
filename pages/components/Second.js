@@ -4,7 +4,7 @@ import Image from 'next/image';
 
 function Second() {
   return (
-    <div className="w-full h-[1000px] bg-[url('../public/image/Backgrouns-02.jpg')] bg-cover flex items-center justify-start">
+    <div className="w-full h-[1000px] bg-[url('../public/image/Backgrouns-02.jpg')] bg-cover flex items-center justify-start px-[70px]">
         <div className='w-1/4'>
             <div className='w-[500px] h-[500px] rounded-full ml-[-100px] overflow-hidden'>
                 <Image src={spaceWhalesImage}/>

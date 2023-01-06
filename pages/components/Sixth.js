@@ -5,15 +5,15 @@ import Image from 'next/image';
 function Sixth() {
   return (
     <div className='w-full h-[900px] bg-black flex-col'>
-        <div className='ml-[70px] mt-[70px]'>
+        <div className='mt-[70px] px-[70px]'>
           <p className='text-[#42EBC8] text-[40px] font-Exo2'>
             WHY USE <br />
             THE NFT BRIDGES <br />
             SYSTEM? <br />
           </p>
         </div>
-        <div className='ml-[70px] mt-[70px] flex'>
-          <div className='w-1/2 mr-[30px]'>
+        <div className='mt-[70px] flex px-[70px]'>
+          <div className='w-1/2 '>
             <div>
               <p className='text-[#42EBC8] text-[30px]'>
                 Current situation
@@ -23,7 +23,7 @@ function Sixth() {
               <p className='text-white text-[20px]'>
                 Every chain is a universe.
               </p>
-              <hr className='mt-[15px]' />
+              <hr className='mt-[15px] mr-[70px]' />
             </div>
             <div className='mt-[15px]'>
               <p className='text-white text-[20px]'>
@@ -31,13 +31,13 @@ function Sixth() {
                 locked into it, even if other, newer chains offer<br />
                 better conditions to your initiatives.<br />
               </p>
-              <hr className='mt-[15px]' />
+              <hr className='mt-[15px] mr-[70px]' />
             </div>
             <div className='mt-[15px]'>
               <p className='text-white text-[20px]'>
                 Most NFTs are deployed on Ethereum<br />
               </p>
-              <hr className='mt-[15px]' />
+              <hr className='mt-[15px] mr-[70px]' />
             </div>
             <div className='mt-[15px]'>
               <p className='text-white text-[20px]'>
@@ -45,16 +45,16 @@ function Sixth() {
                 and collectors to deploy on their Blockchains to increase <br />
                 the chain&apos;s liquidity and number of transactions<br />
               </p>
-              <hr className='mt-[15px]' />
+              <hr className='mt-[15px] mr-[70px]' />
             </div>
             <div className='mt-[15px]'>
               <p className='text-white text-[20px]'>
                 That&apos;s why we are building an NFT bridge.
               </p>
-              <hr className='mt-[15px]' />
+              <hr className='mt-[15px] mr-[70px]' />
             </div>
           </div>
-          <div className='w-1/2 ml-[40px] mr-[50px] mt-[-45px]'>
+          <div className='w-1/2 mt-[-45px]'>
             <div>
               <p className='text-[#42EBC8] text-[30px]'>
                 We are building a set<br />

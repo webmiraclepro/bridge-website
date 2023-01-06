@@ -16,7 +16,7 @@ function Footer() {
     )
   }
   return (
-    <div className="w-full h-[250px] flex">
+    <div className="w-full h-[250px] flex relative">
         <div className='w-1/2 pl-[20px] pt-[40px] flex items-center'>
           <button>
             <Image src={nftBridgeImage} width={350} height={150} className='flex object-cover p-[50px]' onClick={goToTop} />
@@ -44,7 +44,7 @@ function Footer() {
               </div>
             </div>
         </div>
-        <div className='flex flex-col mt-[100px] ml-[-20px]'>
+        <div className='flex flex-col mt-[100px] ml-[-20px] absolute right-[50px]'>
           <p className='text-white'>
               TOP
           </p>

@@ -9,7 +9,7 @@ function First() {
       <div>
           <Header />
       </div>
-      <div className='w-full flex items-center justify-center'>
+      <div className='w-full flex items-center justify-center px-[70px]'>
         <div className='w-1/2 flex items-center justify-center'>
           <Image src={crashPunksImage} className='w-[700px] h-[700px] rounded-full p-[80px]' />
         </div>
