@@ -51,9 +51,9 @@ function Header() {
             </button>
             {
               open &&
-              <div className="flex flex-col bg-white w-[150px] text-center px-[8px] rounded-[15px]" style={{color: "black"}}>             
-                <div className='mt-[5px]'>
-                  <a href='https://testnet.nftbridges.xyz' target='_blank' rel="noreferrer">
+              <div className="flex flex-col w-[150px] bg-[#42EBC8] text-center px-[8px] rounded-[15px] font-[30px]" style={{color: "black"}}>             
+                <div className='mt-[5px] '>
+                  <a href='https://testnets.nftbridges.xyz' target='_blank' rel="noreferrer">
                     NFT BRIDGE
                   </a>
                 </div>
@@ -63,17 +63,6 @@ function Header() {
                 </button>
               </div>
             }
-            <div id="dropdown" class="z-10 hidden bg-white divide-y divide-gray-100 rounded shadow w-44 dark:bg-gray-700">
-              <ul class="py-1 text-sm text-gray-700 dark:text-gray-200" aria-labelledby="dropdownDefaultButton">
-                <li>
-                  <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">NFT BRIDGE</a>
-                </li>
-                <li>
-                  <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">CONTACT</a>
-                </li>
-
-              </ul>
-          </div>
           </div>
         </div>
     </div>
