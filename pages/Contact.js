@@ -40,9 +40,11 @@ function Contact() {
           <Notification showIcon type="success">
               Your Email was sent successfully.
           </Notification>, { placement: 'topEnd' })
-        alert("Your Email was sent successfully.");
       } else {
-        alert('Failed')
+        toaster.push(
+          <Notification showIcon type="error">
+              Failed to send Email.
+          </Notification>, { placement: 'topEnd' })
     }
     }).catch(error => {
       console.log(error);
