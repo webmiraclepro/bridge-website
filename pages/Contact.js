@@ -126,11 +126,14 @@ function Contact() {
                       <button type='submit' className='py-[7px] px-[20px] bg-[#42EBC8] rounded-full font-bold'>
                         SUBMIT
                       </button>
-                      <Button onClick={() => {toaster.push(
-                          <Notification showIcon type="success">
+                      <Button onClick={() => {
+                        toaster.push(
+                          <Notification type="success" closable>
                               Your Email was sent successfully.
-                          </Notification>, { placement: 'topEnd' }); alert("adfasdfasdfasdfd");}}>
-                                        Click Here !
+                          </Notification>, { placement: 'topEnd' }); 
+                          alert("adfasdfasdfasdfd");
+                        }}>
+                          Click Here !
                       </Button>
                     </div>
                     <div className='w-[400px] h-[400px] ml-[500px] overflow-hidden rounded-full'>
