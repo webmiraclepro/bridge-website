@@ -4,11 +4,14 @@ import Header from './components/Header'
 import Footer from './components/Footer'
 import {useState} from 'react'
 import { useEffect, useRef } from "react"
+import { Message, useToaster, Button, Notification } from 'rsuite';
 
 function Contact() {
   const [open, setOpen] = useState(false);
   const [listValue, setListValue] = useState();
   const ref = useRef();
+  const toaster = useToaster();
+
   useEffect(() => {
       if(!ref.current) return
       const onclick = (e) => {
@@ -19,6 +22,33 @@ function Contact() {
           window.removeEventListener('click', onclick);
       }
   }, [ref])
+
+  async function handleSubmit(event) {
+    event.preventDefault();
+    
+    var data = new FormData(event.target);
+    
+    fetch(event.target.action, {
+      method: event.target.method,
+      body: data,
+      headers: {
+        'Accept': 'application/json'
+    }
+    }).then(response => {
+      if (response.ok) {
+        toaster.push(
+          <Message showIcon type="success">
+              Your Email was sent successfully.
+          </Message>, { placement: 'topEnd' })
+        alert("Your Email was sent successfully.");
+      } else {
+        alert('Failed')
+    }
+    }).catch(error => {
+      console.log(error);
+    });
+  }
+  
   return (
     <div>
       <div className="w-full h-[1110px] bg-[url('../public/image/Backgrouns-04.jpg')] bg-cover flex-col">
@@ -43,7 +73,7 @@ function Contact() {
               </div>
               <div className='flex-col items-start justify-center ml-[130px] mt-[130px]'>
                 <div className='flex-col ml-[50px]'>
-                  <form action='https://formspree.io/f/xpzezdew' method='post'>
+                  <form action='https://formspree.io/f/xpzezdew' onSubmit={handleSubmit} method='post'>
                     <div className=' text-black'>
                       <input placeholder='Name' name='Name' 
                       className='w-[700px] h-[30px] rounded-full pl-[15px]'/>
@@ -96,6 +126,12 @@ function Contact() {
                       <button type='submit' className='py-[7px] px-[20px] bg-[#42EBC8] rounded-full font-bold'>
                         SUBMIT
                       </button>
+                      <Button onClick={() => {toaster.push(
+                          <Notification showIcon type="success">
+                              Your Email was sent successfully.
+                          </Notification>, { placement: 'topEnd' }); alert("adfasdfasdfasdfd");}}>
+                                        Click Here !
+                      </Button>
                     </div>
                     <div className='w-[400px] h-[400px] ml-[500px] overflow-hidden rounded-full'>
                         <div className='w-[400px] h-[300px] overflow-hidden'>
