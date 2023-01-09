@@ -78,11 +78,11 @@ function Contact() {
                   <form action='https://formspree.io/f/xpzezdew' onSubmit={handleSubmit} method='post'>
                     <div className=' text-black'>
                       <input placeholder='Name' name='Name' 
-                      className='w-[700px] h-[30px] rounded-full pl-[15px]'/>
+                      className='w-[700px] h-[40px] rounded-full pl-[15px]'/>
                     </div>
                     <div className='mt-[15px]'>
                       <input placeholder='Email' name='From'
-                      className='w-[700px] h-[30px] rounded-full pl-[15px]'/>
+                      className='w-[700px] h-[40px] rounded-full pl-[15px]'/>
                     </div>
                     <div className='flex'>
                       <div className='mt-[15px]'>
@@ -92,11 +92,11 @@ function Contact() {
                             value={listValue}
                             onChange={(e) => onChange(e.target.value)}
                             onClick={() => setOpen(true)}
-                            className="w-4px px-2 py-1 text-right text-black bg-white rounded-full w-[340px]" />
+                            className="w-4px px-2 py-1 text-right text-black bg-white rounded-full w-[340px] h-[40px]" />
                             {
                               open &&
                               <div className="absolute mt-[3px] rounded-lg px-[8px] flex flex-col bg-white w-full text-right rounded-b-[4px] cursor-pointer" style={{color: "black"}}>             
-                                <div onClick={() => {setOpen(false), setListValue("Collection")}} name="Collection">
+                                <div onClick={() => {setOpen(false), setListValue("Collection")}} name="Collection" className='pt-[20px]'>
                                     Collection
                                 </div>
                                 <hr />
@@ -118,14 +118,14 @@ function Contact() {
                       </div>
                       <div className='mt-[15px] ml-[20px]'>
                         <input placeholder='Phone' name='Phone'
-                        className='w-[340px] h-[30px] rounded-full pl-[15px]'/>
+                        className='w-[340px] h-[40px] rounded-full pl-[15px]'/>
                       </div>
                     </div>
                     <div className='mt-[15px]'>
                       <textarea name='Message' className='w-[700px] h-[300px] rounded-[20px] pl-[15px] text-left' />
                     </div>
                     <div className='w-[300px] h-[100px] rounded-full flex items-center'>     
-                      <button type='submit' className='py-[7px] px-[20px] bg-[#42EBC8] rounded-full font-bold'>
+                      <button type='submit' className='py-[7px] px-[20px] bg-[#42EBC8] rounded-full font-bold text-black tracking-1'>
                         SUBMIT
                       </button>
                     </div>

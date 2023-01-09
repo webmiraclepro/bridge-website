@@ -86,7 +86,7 @@ function Sixth() {
               </p>
               <hr className='mt-[15px]' />
             </div>
-            <div className='w-[500px] h-[255px] mt-[60px] ml-[50px] overflow-hidden'>
+            <div className='w-[500px] h-[255px] mt-[86px] ml-[50px] overflow-hidden'>
               <div className='w-[500px] h-[250px]'>
                 <Image src={parrots} className='rounded-full'/>
               </div>

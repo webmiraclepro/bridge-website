@@ -117,7 +117,7 @@ function Seventh() {
                 </div>
             </div>
         </div>
-        <div className='flex mt-[40px]'>
+        <div className='flex mt-[105px]'>
             <div className='w-1/2'>
                 <div className='w-[500px] h-[295px] ml-[300px] overflow-hidden'>
                     <div className='w-[500px] h-[500px]'>
@@ -126,8 +126,8 @@ function Seventh() {
                 </div>
             </div>
             <div className='w-1/2'>
-                <div className='w-[300px] h-[100px] rounded-full flex items-center mt-[120px]'>     
-                <button className='py-[30px] px-[80px] bg-[#42EBC8] rounded-full font-bold text-[40px]'
+                <div className='w-[300px] h-[100px] rounded-full flex items-center mt-[120px]  font-[700] text-black'>     
+                    <button className='py-[30px] px-[80px] bg-[#42EBC8] rounded-full text-[30px] font-Barlow tracking-1'
                         onClick={() => router.push('/Contact')}>
                         CONTACT
                     </button>

@@ -16,11 +16,11 @@ function Footer() {
     )
   }
   return (
-    <div className="w-full h-[250px] flex relative">
-        <div className='w-1/2 pl-[20px] pt-[40px] flex items-center'>
-          <button>
+    <div className="w-full h-[250px] flex relative px-[70px]">
+        <div className='w-1/2 flex items-center'>
+          <div className='mt-[-30px] ml-[-80px]'>
             <Image src={nftBridgeImage} width={350} height={150} className='flex object-cover p-[50px]' onClick={goToTop} />
-          </button>
+          </div>
         </div>
         <div className='w-1/2 flex'>
           <div className='w-1/2'>
@@ -36,7 +36,7 @@ function Footer() {
               </div>
             </div>
           </div>
-          <div className='w-1/2 flex items-center justify-center mt-[30px]'>
+          <div className='w-1/2 flex items-center justify-center mt-[60px]'>
             <div className=''>
                   <p className='text-white font-[17px]'>
                       © NFT Bridges 2022
@@ -44,7 +44,7 @@ function Footer() {
               </div>
             </div>
         </div>
-        <div className='flex flex-col mt-[100px] ml-[-20px] absolute right-[50px]'>
+        <div className='flex flex-col mt-[110px] ml-[-20px] absolute right-[50px]'>
           <p className='text-white'>
               TOP
           </p>

@@ -5,20 +5,20 @@ import crashPunksImage from "../../public/image/Crash_Punk_NFT.jpg";
 
 function First() {
   return (
-    <div className="w-full h-[800px] bg-[url('../public/image/Backgrouns-04.jpg')] bg-cover">
+    <div className="w-full h-[800px] bg-[url('../public/image/Backgrouns-04.jpg')] bg-cover px-[70px]">
       <div>
           <Header />
       </div>
-      <div className='w-full flex items-center justify-center px-[70px]'>
+      <div className='w-full flex items-center justify-center'>
         <div className='w-1/2 flex items-center justify-center'>
-          <Image src={crashPunksImage} className='w-[550px] h-[550px] rounded-full p-[80px]' />
+          <Image src={crashPunksImage} className='w-[550px] h-[530px] rounded-full p-[80px]' />
         </div>
         <div className='w-1/2 space-y-4'>
-          <div className='flex tracking-4'>
-            <p className='text-[#42EBC8] text-[75px] font-bold'>
+          <div className='flex tracking-2 font-extrabold text-[85px]'>
+            <p className='text-[#42EBC8] my-[8px]'>
               NFT 
             </p>
-            <p className='text-white text-[75px] font-bold ml-4'>
+            <p className='text-white pl-[30px]'>
               BRIDGES
             </p> 
           </div>

@@ -28,13 +28,15 @@ function Header() {
   }, [ref])
   return (
     <div className="w-full h-[150px] flex">
-        <div className='w-1/2 pl-[20px] pt-[40px] flex items-center'>
-          <button>
-            <Image src={nftBridgeImage} width={350} height={200} className='flex object-cover p-[50px]' onClick={() => router.push('/')} />
-          </button>
+        <div className='w-1/2 flex items-center '>
+          <div className='w-[280px] h-[200px] bg-cover mt-[100px]'>
+            
+              <Image src={nftBridgeImage} width={230} height={180} className='flex ml-[-25px]' onClick={() => router.push('/')} />
+            
+          </div>
         </div>
-        <div className='w-1/2 flex'>
-          <div className='flex space-x-7 mt-[80px] content-start w-4/5'>
+        <div className='w-1/2 flex relative'>
+          <div className='flex space-x-7 mt-[80px] w-4/5 absolute'>
             <a className='bg-white rounded-full w-10 h-10' href='https://twitter.com/nft_bridges' target='_blank' rel="noreferrer">
               <Image src={twitterIcon} className='p-1'/>
             </a>
@@ -45,20 +47,20 @@ function Header() {
               <Image src={telegramIcon} className='p-2'/>
             </a>
           </div>
-          <div className='w-14 h-14 mt-[70px]' ref={ref} onClick={e => {e.stopPropagation()}}>
+          <div className='w-14 h-14 mt-[70px] absolute right-0 items-end' ref={ref} onClick={e => {e.stopPropagation()}}>
             <button type='button' onClick={() => setOpen(true)} onChange={(e) => onChange(e.target.value)}>
               <Image src={menuIcon} />
             </button>
             {
               open &&
-              <div className="flex flex-col w-[150px] bg-[#42EBC8] text-center px-[8px] rounded-[15px] font-[30px]" style={{color: "black"}}>             
-                <div className='mt-[5px] '>
+              <div className="flex flex-col w-[150px] bg-[#42EBC8] text-center px-[8px] rounded-[15px] font-[30px] ml-[-40px]" style={{color: "black"}}>             
+                <div className='pt-[20px] tracking-2 text-black'>
                   <a href='https://testnets.nftbridges.xyz' target='_blank' rel="noreferrer">
                     NFT BRIDGE
                   </a>
                 </div>
                 <hr />
-                <button className='mt-[5px]' onClick={() => router.push('/Contact')}>
+                <button className='pb-[20px] tracking-2' onClick={() => router.push('/Contact')}>
                   CONTACT
                 </button>
               </div>

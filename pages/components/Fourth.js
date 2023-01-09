@@ -121,7 +121,7 @@ function Fourth() {
             
             </div>
             <div className='w-1/2 flex items-center justify-center ml-[900px]'>
-                <div className='w-[500px] h-[270px] overflow-hidden mt-[-70px]'>
+                <div className='w-[500px] h-[270px] overflow-hidden mt-[-50px]'>
                     <div className='w-[500px] h-[500px]'>
                         <Image src={artiesImage} className='rounded-full'/>
                     </div>

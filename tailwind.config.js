@@ -15,7 +15,7 @@ module.exports = {
       '2': '0.2em',
       '3': '0.3em',
       '4': '0.4em',
-    }
+    },
   },
   plugins: [
   ],
