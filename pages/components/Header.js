@@ -27,7 +27,7 @@ function Header() {
       }
   }, [ref])
   return (
-    <div className="w-full h-[150px] flex">
+    <div className="w-full h-[150px] flex px-[70px]">
         <div className='w-1/2 flex items-center '>
           <div className='w-[280px] h-[200px] bg-cover mt-[100px]'>
             
