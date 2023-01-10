@@ -5,7 +5,7 @@ import crashPunksImage from "../../public/image/Crash_Punk_NFT.jpg";
 
 function First() {
   return (
-    <div className="w-full h-[800px] bg-[url('../public/image/Backgrouns-04.jpg')] bg-cover px-[70px]">
+    <div className="w-full h-[800px] bg-[url('../public/image/Backgrouns-04.jpg')] bg-cover">
       <div>
           <Header />
       </div>
