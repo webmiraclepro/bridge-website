@@ -44,7 +44,7 @@ function Footer() {
               </div>
             </div>
         </div>
-        <div className='flex flex-col mt-[110px] ml-[-20px] absolute right-[50px]'>
+        <div className='flex flex-col mt-[110px] ml-[-20px] absolute right-[70px]'>
           <p className='text-white'>
               TOP
           </p>
