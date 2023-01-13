@@ -1,10 +1,33 @@
 import React from 'react'
 import parrots from "../../public/image/Bitcoin_parrots_867.png";
 import Image from 'next/image';
+import { useRef, useState, useEffect } from 'react';
+import { Parallax } from 'react-scroll-parallax';
 
 function Sixth() {
+  const target = useRef(null);
+  const [speed, setSpeed] = useState();
+
+  useEffect(() => {
+    if(!target.current) return;
+    const onScroll = e => {
+        if(target.current.getClientRects()[0].y < 0) {
+            setSpeed(-70);
+        }
+        else {
+            setSpeed(0);
+        }
+    }
+
+    window.addEventListener('scroll', onScroll);
+    
+    return () => {
+        window.removeEventListener('scroll', onScroll);
+    }
+  }, [target.current])
+
   return (
-    <div className='w-full h-[900px] bg-black flex-col'>
+    <div className='relative overflow-hidden w-full h-[1200px] bg-black flex-col' ref={target}>
         <div className='mt-[70px] px-[70px]'>
           <p className='text-[#42EBC8] text-[40px] font-Exo2 tracking-2'>
             WHY USE <br />
@@ -86,11 +109,11 @@ function Sixth() {
               </p>
               <hr className='mt-[15px]' />
             </div>
-            <div className='w-[500px] h-[255px] mt-[86px] ml-[50px] overflow-hidden'>
-              <div className='w-[500px] h-[250px]'>
+            <Parallax speed={speed} targetElement={target.current}>
+              <div className='w-[500px] h-[500px] absolute mt-[-9px] ml-[50px]'>
                 <Image src={parrots} className='rounded-full'/>
               </div>
-            </div>
+            </Parallax>
           </div>
         </div>
     </div>

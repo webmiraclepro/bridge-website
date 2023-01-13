@@ -11,12 +11,6 @@ import artiesImage from '../../public/image/Artie-7713.jpeg';
 function Fourth() {
     const target = useRef(null);
     const [speed, setSpeed] = useState();
-    // const artiesImg = useParallax({
-    //     // speed,
-    //     translateY: '50%',
-        
-    //     targetElement: target.current,
-    // })
     console.log({speed});
     useEffect(() => {
         if(!target.current) return;
