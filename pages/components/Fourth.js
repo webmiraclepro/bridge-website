@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import Image from 'next/image'
-import { useParallax } from 'react-scroll-parallax';
+import { Parallax, useParallax } from 'react-scroll-parallax';
 import { useRef, useEffect } from 'react';
 import leaderIcon from '../../public/image/Blockchain_Leaders_Icon.png';
 import marketIcon from '../../public/image/Markets_Icon.png';
@@ -10,28 +10,31 @@ import artiesImage from '../../public/image/Artie-7713.jpeg';
 
 function Fourth() {
     const target = useRef(null);
-    const [speed, setSpeed] = useState(0);
-    const artiesImg = useParallax({
-        speed,
-        targetElement: target.current,
-    })
+    const [speed, setSpeed] = useState();
+    // const artiesImg = useParallax({
+    //     // speed,
+    //     translateY: '50%',
+        
+    //     targetElement: target.current,
+    // })
     console.log({speed});
     useEffect(() => {
-        if(!target) return;
-      window.onscroll = e => {
-        if(target.current.getClientRects()[0].y < 0) {
-            setSpeed(-70);
-            console.log(speed);
+        if(!target.current) return;
+        const onScroll = e => {
+            if(target.current.getClientRects()[0].y < 0) {
+                setSpeed(-70);
+            }
+            else {
+                setSpeed(0);
+            }
         }
-        else {
-            setSpeed(0);
-            console.log(speed)
+
+        window.addEventListener('scroll', onScroll);
+        
+        return () => {
+            window.removeEventListener('scroll', onScroll);
         }
-      }
-    
-      return () => {
-      }
-    }, [target])
+    }, [target.current])
     
     return (
         <div className="relative overflow-hidden w-full h-[1050px] bg-[url('../public/image/Backgrouns-04.jpg')] bg-cover flex-col tracking-wide" ref={target}>
@@ -142,12 +145,11 @@ function Fourth() {
                     </div>
                 </div>
             </div>
-            <div>
-
-            </div>
-            <div className='w-[500px] h-[500px] absolute bottom-[0px] right-[300px]' ref={artiesImg.ref}>
-                <Image src={artiesImage} className='rounded-full'/>
-            </div>
+            <Parallax speed={speed} targetElement={target.current}>
+                <div className='w-[500px] h-[500px] absolute right-[300px] mt-[-55px]'>
+                    <Image src={artiesImage} className='rounded-full'/>
+                </div>
+            </Parallax>
         </div>
     )
 }
