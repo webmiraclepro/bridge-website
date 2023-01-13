@@ -25,7 +25,7 @@ function Fourth() {
         }
         else {
             setSpeed(0);
-            console.log(speed);
+            console.log(speed)
         }
       }
     
