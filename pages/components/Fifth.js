@@ -103,17 +103,19 @@ function Fifth() {
                 </div>
                 <div className='mt-[30px]'>
                     <p className='text-[#FFFFFF] text-[20px] tracking-1 font-Barlow font-semibold'>
-                    For the past five years, Ethan <br />
-                    has worked with alternative <br />
-                    investments in Singapore. He <br />
-                    graduated from Imperial College<br />
-                    London with a Master&apos;s degree in <br />
-                    Finance & Accounting and he <br />
-                    currently serves as a VP at <br />
-                    Pinetree Securities. <br />
-                    Ethan has gained significant <br />
-                    experience with Web3 and the<br />
-                    venture startup scene in APAC.<br />
+                        Ethan was an entrepreneur, <br />
+                        having co-founded a deepwater <br />
+                        exploration drone company based <br />
+                        in London that provides anyone <br />
+                        with a cost-effective solution <br />
+                        for exploring the ocean at depths <br />
+                        that are usually only accessible <br />
+                        by large organizations with a <br />
+                        sizeable budget. He then turned <br />
+                        venture capitalist and is currently <br />
+                        responsible for Hanwha Group’s <br />
+                        Southeast Asia Corporate Venture <br />
+                        Capital arm.<br />
                     </p>
                 </div>
             </div>

@@ -3,25 +3,25 @@ import Image from 'next/image'
 import robel from '../../public/image/Rebel_tuer_NFT.jpg';
 import crash from '../../public/image/Crash_Punk_NFT.jpg';
 import { useRouter } from 'next/router';
-import { Parallax } from 'react-scroll-parallax';
+import { Parallax, ParallaxProvider } from 'react-scroll-parallax';
 import { useRef, useEffect, useState } from 'react';
 
 function Seventh() {
     const router = useRouter();
     const target = useRef(null);
     const [speed, setSpeed] = useState();
+    const [speedX, setSpeedX] = useState();
 
     useEffect(() => {
         if(!target.current) return;
         const onScroll = e => {
-            console.log(target.current.getClientRects()[0].y);
+            
             if(target.current.getClientRects()[0].y < 0) {
                 setSpeed(-70);
             }
             else {
                 setSpeed(0);
-            }
-            console.log("speed", speed);
+            }        
         }
 
         window.addEventListener('scroll', onScroll);
@@ -32,6 +32,7 @@ function Seventh() {
     }, [target.current])
     return (
         <div className="relative overflow-hidden w-full h-[1800px] bg-[url('../public/image/Backgrouns-07.jpg')] bg-cover flex-col" ref={target}>
+            
             <div className='flex'>
                 <div className='flex-col mt-[120px] justify-center items-center w-1/4'>
                     <div className='ml-[70px] '>
@@ -39,11 +40,15 @@ function Seventh() {
                             SECURITY
                         </p>
                     </div>
-                    <div className='mt-[300px] ml-[-250px]'>
-                        <div className='w-[450px] h-[450px]'>
-                            <Image src={robel} className='rounded-full'/>
-                        </div>
+                    <ParallaxProvider scrollAxis='vertical'>
+                    <div className='mt-[300px]'>
+                        <Parallax speed={-70} targetElement={target.current} translateX={[-100, 500]}>
+                            <div className='w-[450px] h-[450px] absolute'>
+                                <Image src={robel} className='rounded-full'/>
+                            </div>
+                        </Parallax>
                     </div>
+                    </ParallaxProvider>
                 </div>
                 <div className='flex-col items-start justify-center mt-[130px] w-3/4 tracking-1 font-Barlow font-semibold'>
                     <div className=''>
@@ -141,6 +146,7 @@ function Seventh() {
                     </div>
                 </div>
             </div>
+            <ParallaxProvider scrollAxis='vertical'>
             <div className='flex mt-[105px]'>
                 <div className='w-1/2'>
                     <Parallax speed={speed} targetElement={target.current}>
@@ -161,6 +167,7 @@ function Seventh() {
                     </div>
                 </div>
             </div>
+            </ParallaxProvider>
         </div>
   )
 }

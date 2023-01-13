@@ -2,7 +2,7 @@ import React from 'react'
 import parrots from "../../public/image/Bitcoin_parrots_867.png";
 import Image from 'next/image';
 import { useRef, useState, useEffect } from 'react';
-import { Parallax } from 'react-scroll-parallax';
+import { Parallax, ParallaxProvider } from 'react-scroll-parallax';
 
 function Sixth() {
   const target = useRef(null);
@@ -109,11 +109,13 @@ function Sixth() {
               </p>
               <hr className='mt-[15px]' />
             </div>
+            <ParallaxProvider scrollAxis='vertical'>
             <Parallax speed={speed} targetElement={target.current}>
               <div className='w-[500px] h-[500px] absolute mt-[31px] ml-[50px]'>
                 <Image src={parrots} className='rounded-full'/>
               </div>
             </Parallax>
+            </ParallaxProvider>
           </div>
         </div>
     </div>

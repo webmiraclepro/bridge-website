@@ -1,12 +1,13 @@
 import React, { useState } from 'react'
 import Image from 'next/image'
-import { Parallax, useParallax } from 'react-scroll-parallax';
+import { Parallax, ParallaxProvider } from 'react-scroll-parallax';
 import { useRef, useEffect } from 'react';
 import leaderIcon from '../../public/image/Blockchain_Leaders_Icon.png';
 import marketIcon from '../../public/image/Markets_Icon.png';
 import bookIcon from '../../public/image/Collections_Icon.png';
 import manIcon from '../../public/image/Collectors_Icon.png';
 import artiesImage from '../../public/image/Artie-7713.jpeg';
+
 
 function Fourth() {
     const target = useRef(null);
@@ -139,11 +140,13 @@ function Fourth() {
                     </div>
                 </div>
             </div>
-            <Parallax speed={speed} targetElement={target.current}>
-                <div className='w-[500px] h-[500px] absolute right-[300px] mt-[-55px]'>
-                    <Image src={artiesImage} className='rounded-full'/>
-                </div>
-            </Parallax>
+            <ParallaxProvider scrollAxis='vertical'>
+                <Parallax speed={speed} targetElement={target.current}>
+                    <div className='w-[500px] h-[500px] absolute right-[300px] mt-[-55px]'>
+                        <Image src={artiesImage} className='rounded-full'/>
+                    </div>
+                </Parallax>
+            </ParallaxProvider>
         </div>
     )
 }
