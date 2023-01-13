@@ -20,7 +20,7 @@ function Fourth() {
         if(!target) return;
       window.onscroll = e => {
         if(target.current.getClientRects()[0].y < 0) {
-            setSpeed(-60);
+            setSpeed(-70);
             console.log(speed);
         }
         else {
@@ -34,7 +34,7 @@ function Fourth() {
     }, [target])
     
     return (
-        <div className="relative overflow-hidden w-full h-[1100px] bg-[url('../public/image/Backgrouns-04.jpg')] bg-cover flex-col tracking-wide" ref={target}>
+        <div className="relative overflow-hidden w-full h-[1050px] bg-[url('../public/image/Backgrouns-04.jpg')] bg-cover flex-col tracking-wide" ref={target}>
             <div className='w-full h-[600px] flex px-[70px]' >
                 <div className='w-1/4 mt-[60px]'>
                     <div className='flex flex-col items-start'>
