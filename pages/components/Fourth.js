@@ -21,11 +21,11 @@ function Fourth() {
       window.onscroll = e => {
         if(target.current.getClientRects()[0].y < 0) {
             setSpeed(-60);
-            console.log(-20);
+            console.log(speed);
         }
         else {
             setSpeed(0);
-            console.log(0);
+            console.log(speed);
         }
       }
     
@@ -34,7 +34,7 @@ function Fourth() {
     }, [target])
     
     return (
-        <div className="relative overflow-hidden w-full h-[800px] bg-[url('../public/image/Backgrouns-04.jpg')] bg-cover flex-col tracking-wide" ref={target}>
+        <div className="relative overflow-hidden w-full h-[1100px] bg-[url('../public/image/Backgrouns-04.jpg')] bg-cover flex-col tracking-wide" ref={target}>
             <div className='w-full h-[600px] flex px-[70px]' >
                 <div className='w-1/4 mt-[60px]'>
                     <div className='flex flex-col items-start'>
@@ -145,11 +145,9 @@ function Fourth() {
             <div>
 
             </div>
-            {/* <div className='relative overflow-hidden h-[500px]'> */}
-                <div className='w-[500px] h-[500px] absolute -bottom-10 right-40' ref={artiesImg.ref}>
-                    <Image src={artiesImage} className='rounded-full'/>
-                </div>
-            {/* </div> */}
+            <div className='w-[500px] h-[500px] absolute bottom-[0px] right-[300px]' ref={artiesImg.ref}>
+                <Image src={artiesImage} className='rounded-full'/>
+            </div>
         </div>
     )
 }
