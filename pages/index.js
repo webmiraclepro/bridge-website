@@ -8,8 +8,15 @@ import Fourth from './components/Fourth'
 import Fifth from './components/Fifth'
 import Sixth from './components/Sixth'
 import Seventh from './components/Seventh'
+import { useRef } from 'react'
+import { useParallax } from 'react-scroll-parallax'
 
 export default function Home() {
+  const target = useRef();
+  // const artiesImg = useParallax({
+  //   speed:200,
+  //   targetElement: target.current,
+  // })
   return (
     <div className='bg-black'>
       <div>
@@ -24,7 +31,7 @@ export default function Home() {
         <Third />
       </div>
       <hr />
-      <div>
+      <div >
         <Fourth />
       </div>
       <hr />
