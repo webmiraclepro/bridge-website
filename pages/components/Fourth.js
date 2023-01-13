@@ -15,7 +15,7 @@ function Fourth() {
     useEffect(() => {
         if(!target.current) return;
         const onScroll = e => {
-            if(target.current.getClientRects()[0].y < 0) {
+            if(target.current.getClientRects()[0].y < 0){
                 setSpeed(-70);
             }
             else {

@@ -27,7 +27,7 @@ function Sixth() {
   }, [target.current])
 
   return (
-    <div className='relative overflow-hidden w-full h-[1200px] bg-black flex-col' ref={target}>
+    <div className='relative overflow-hidden w-full h-[1250px] bg-black flex-col' ref={target}>
         <div className='mt-[70px] px-[70px]'>
           <p className='text-[#42EBC8] text-[40px] font-Exo2 tracking-2'>
             WHY USE <br />
@@ -110,7 +110,7 @@ function Sixth() {
               <hr className='mt-[15px]' />
             </div>
             <Parallax speed={speed} targetElement={target.current}>
-              <div className='w-[500px] h-[500px] absolute mt-[-9px] ml-[50px]'>
+              <div className='w-[500px] h-[500px] absolute mt-[31px] ml-[50px]'>
                 <Image src={parrots} className='rounded-full'/>
               </div>
             </Parallax>
