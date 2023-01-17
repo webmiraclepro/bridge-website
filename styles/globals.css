@@ -23,10 +23,7 @@
       background-image: url(assets/img/benifitbg.png)
     }
   
-    .title {
-      @apply w-full text-3xl lg:text-6xl font-bold text-gray-800 pb-0 lg:pb-2
-    }
-  
+   
     .subtitle {
       @apply text-gray-500 text-sm lg:text-lg font-medium max-w-sm py-2 lg:py-5
     }
@@ -93,4 +90,9 @@
         @apply mt-[15px] lg:mr-[70px] mx-auto
         
     }
+    .seventh-title {
+        @apply text-[32px] text-[#42EBC8]
+      }
+    
+    
   }

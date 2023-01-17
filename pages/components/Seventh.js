@@ -13,47 +13,43 @@ function Seventh() {
     const [speedX, setSpeedX] = useState();
 
     useEffect(() => {
-        if(!target.current) return;
+        if (!target.current) return;
         const onScroll = e => {
-            
-            if(target.current.getClientRects()[0].y < 0) {
+
+            if (target.current.getClientRects()[0].y < 0) {
                 setSpeed(-70);
             }
             else {
                 setSpeed(0);
-            }        
+            }
         }
 
         window.addEventListener('scroll', onScroll);
-        
+
         return () => {
             window.removeEventListener('scroll', onScroll);
         }
     }, [target.current])
     return (
         <div className="relative overflow-hidden w-full h-[1800px] bg-[url('../public/image/Backgrouns-07.jpg')] bg-cover flex-col" ref={target}>
-            
-            <div className='flex'>
-                <div className='flex-col mt-[120px] justify-center items-center w-1/4'>
-                    <div className='ml-[70px] '>
+
+            <div className='flex flex-col lg:flex-row text-center lg:text-left'>
+                <div className='flex-col mt-[120px] justify-center items-center lg:w-1/4'>
+                    <div className='lg:ml-[70px] '>
                         <p className='text-[40px] text-[#42EBC8] font-Exo2 tracking-2'>
                             SECURITY
                         </p>
                     </div>
-                    <div className='mt-[300px]'>
-                            <div className='w-[450px] h-[450px] absolute'>
-                                <Image src={robel} className='rounded-full'/>
-                            </div>
-                    </div>
+                    <Image src={robel} className='w-[300px] h-[300px] lg:w-[450px] lg:h-[450px] lg:mt-[300px] rounded-full mx-auto absolute  hidden lg:flex' />
                 </div>
-                <div className='flex-col items-start justify-center mt-[130px] w-3/4 tracking-1 font-Barlow font-semibold'>
+                <div className='flex-col items-center lg:items-start justify-center lg:mt-[130px] lg:w-3/4 tracking-1 font-Barlow font-semibold'>
                     <div className=''>
                         <p className='text-white text-[20px]'>
                             When it comes to Web3, security is a prime concern, and we’ve made NFT Bridges as secure <br />
                             as Web3 allows. First, the bridge requires the user to login with their wallet on both ends. <br />
                             That means the user has the seed phrase for the wallet containing the NFTs. If you know the <br />
                             seed phrase then you are the owner of the wallet and can make choices about the NFTs in it.<br />
-                            <br  />
+                            <br />
                             The user must approve the transaction manually on both chains, signaling that the rightful <br />
                             owner of the wallets approves the transaction.<br />
                             <br />
@@ -64,9 +60,9 @@ function Seventh() {
                             to the vaults’ contents.<br />
                         </p>
                     </div>
-                    <div className='flex mt-[100px]'>
-                        <div className='flex-col w-1/3'>
-                            <p className='text-[32px] text-[#42EBC8]'>
+                    <div className='flex flex-col lg:flex-row mt-[100px]'>
+                        <div className='flex-col lg:w-1/3'>
+                            <p className='seventh-title'>
                                 Benefits for <br />
                                 Everyone on Web3: <br />
                             </p>
@@ -81,8 +77,8 @@ function Seventh() {
                                 for all Web3 participants.<br />
                             </p>
                         </div>
-                        <div className='flex-col w-1/3'>
-                            <p className='text-[32px] text-[#42EBC8]'>
+                        <div className='flex-col lg:w-1/3'>
+                            <p className='seventh-title'>
                                 Collection <br />
                                 Managers <br />
                             </p>
@@ -95,8 +91,8 @@ function Seventh() {
                                 out right away.<br />
                             </p>
                         </div>
-                        <div className='flex-col w-1/3'>
-                            <p className='text-[32px] text-[#42EBC8]'>
+                        <div className='flex-col lg:w-1/3'>
+                            <p className='seventh-title'>
                                 Blockchain <br />
                                 Leadership <br />
                             </p>
@@ -111,8 +107,8 @@ function Seventh() {
                         </div>
                     </div>
                     <div className='flex mt-[50px]'>
-                        <div className='flex-col w-1/3'>
-                            <p className='text-[32px] text-[#42EBC8]'>
+                        <div className='flex-col lg:w-1/3'>
+                            <p className='seventh-title'>
                                 NFT Markets <br />
                             </p>
                             <p className='mt-[20px] text-[20px] text-white'>
@@ -125,8 +121,8 @@ function Seventh() {
                                 Arties.<br />
                             </p>
                         </div>
-                        <div className='flex-col w-1/3'>
-                            <p className='text-[32px] text-[#42EBC8]'>
+                        <div className='flex-col lg:w-1/3'>
+                            <p className='seventh-title'>
                                 Collectors <br />
                             </p>
                             <p className='mt-[20px] text-[20px] text-white'>
@@ -143,29 +139,29 @@ function Seventh() {
                 </div>
             </div>
             <ParallaxProvider scrollAxis='vertical'>
-            <div className='flex mt-[105px]'>
-                <div className='w-1/2'>
-                    <Parallax speed={speed} targetElement={target.current}>
-                        <div>
-                            
+                <div className='flex mt-[105px]'>
+                    <div className='lg:w-1/2'>
+                        <Parallax speed={speed} targetElement={target.current}>
+                            <div>
+
+                            </div>
+                            <div className='w-[400px] h-[400px] lg:w-[500px] lg:h-[500px] absolute ml-[300px]'>
+                                <Image src={crash} className='rounded-full' />
+                            </div>
+                        </Parallax>
+                    </div>
+                    <div className='lg:w-1/2'>
+                        <div className='w-[300px] h-[100px] rounded-full flex items-center mt-[120px]  font-[700] text-black'>
+                            <button className='py-[30px] px-[80px] bg-[#42EBC8] rounded-full text-[30px] font-Barlow tracking-1'
+                                onClick={() => router.push('/Contact')}>
+                                CONTACT
+                            </button>
                         </div>
-                        <div className='w-[500px] h-[500px] absolute ml-[300px]'>
-                            <Image src={crash} className='rounded-full'/>
-                        </div>
-                    </Parallax>
-                </div>
-                <div className='w-1/2'>
-                    <div className='w-[300px] h-[100px] rounded-full flex items-center mt-[120px]  font-[700] text-black'>     
-                        <button className='py-[30px] px-[80px] bg-[#42EBC8] rounded-full text-[30px] font-Barlow tracking-1'
-                            onClick={() => router.push('/Contact')}>
-                            CONTACT
-                        </button>
                     </div>
                 </div>
-            </div>
             </ParallaxProvider>
         </div>
-  )
+    )
 }
 
 export default Seventh
