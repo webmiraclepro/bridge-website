@@ -83,5 +83,14 @@
         @apply rounded-full w-[160px] h-[160px] items-center lg:items-start bg-cover mt-[10px]
         
     }
-     
+
+    .sixth-description {
+        @apply text-white text-[20px]
+    
+
+    }
+    .sixth-hr {
+        @apply mt-[15px] lg:mr-[70px] mx-auto
+        
+    }
   }
