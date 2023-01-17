@@ -28,7 +28,7 @@ function Third() {
             <div className=' h-full flex flex-col justify-center lg:ml-10' onMouseOver={() => { setOver(true); console.log("over", over); }} onMouseOut={() => setOver(false)}>
                 <div className='flex overflow-hidden'>
                     <video ref={video1} autoplay controls width={1250} height={800}
-                        className='!border-[5px] p-14 !border-[#42EBC8] rounded-[50px]'>
+                        className='!border-[5px] lg:p-14 !border-[#42EBC8] rounded-[50px]'>
                         <source src="/image/a.mp4" />
                     </video>
                 </div>
