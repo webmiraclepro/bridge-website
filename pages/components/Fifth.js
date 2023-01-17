@@ -9,24 +9,24 @@ import jamil from '../../public/image/JAMIL.png';
 
 function Fifth() {
   return (
-    <div className="w-full h-[1500px] bg-[url('../public/image/Backgrouns-05.jpg')] bg-cover flex-col">
-        <div className='w-full h-[600px] flex px-[70px]'>
-            <div className='flex flex-col items-start mt-[80px] w-1/4 tracking-3'>
+    <div className="w-full lg:h-[1500px] bg-[url('../public/image/Backgrouns-05.jpg')] bg-cover flex-col overflow-hidden">
+        <div className='w-full lg:h-[600px] flex flex-col lg:flex-row px-2 lg:px-[70px] text-center lg:text-left items-center lg:items-start'>
+            <div className='flex flex-col items-start pt-20 lg:w-1/4 tracking-3'>
                 <p className='text-[#42EBC8] text-[40px] font-Exo2'> 
                     TEAM AND <br />
                     ADVISORS <br />
                 </p>
             </div>
-            <div className='flex flex-col items-start mt-[60px] w-1/4'>
-                <div className='rounded-full w-[200px] h-[200px] items-start bg-cover mt-[10px] ml-[-20px]'>
+            <div className='fifth-avatar-div'>
+                <div className='fifth-avatar-img  w-[200px] h-[200px] ml-[-20px]'>
                     <Image src={ilan} className='rounded-full'/>
                 </div>
-                <div className='mt-[20px] flex-col font-Exo2'>
-                    <p className='text-white text-[30px] font-bold'>
+                <div className='fifth-title-cap'>
+                    <p className='fifth-title'>
                         Ilan Klein
                     </p>
                     <div className='flex'>
-                        <p className='text-white text-[25px]'>
+                        <p className='fifth-title-role'>
                             Founder
                         </p>
                         <a href={'https://www.linkedin.com/in/ilan-klein-8073192'} target="_blank" rel="noreferrer" className='bg-white w-[20px] h-[20px] ml-[10px] mt-[10px] font-bold flex items-center justify-center'>
@@ -34,8 +34,7 @@ function Fifth() {
                         </a>
                     </div>
                 </div>
-                <div className='mt-[30px]'>
-                    <p className='text-[#FFFFFF] text-[20px] tracking-1 font-Barlow font-semibold'>
+                    <p className='fifth-description'>
                     Ilan worked for 15+ years in <br />
                     the digital marketing space <br />
                     before transitioning to Web3.<br />
@@ -49,18 +48,18 @@ function Fifth() {
                     in their wallets, he sold 1700 <br />
                     Arties.<br />
                     </p>
-                </div>
+               
             </div>
-            <div className='flex flex-col items-start mt-[60px] w-1/4'>
-                <div className='rounded-full w-[160px] h-[160px] items-start bg-cover mt-[10px]'>
+            <div className='fifth-avatar-div'>
+                <div className='fifth-avatar-img'>
                     <Image src={micha} className='p-1 bg-cover rounded-full'/>
                 </div>
-                <div className='mt-[20px] flex-col font-Exo2'>
-                    <p className='text-white text-[30px] font-bold'>
+                <div className='fifth-title-cap'>
+                    <p className='fifth-title'>
                         Micha Riss
                     </p>
                     <div className='flex'>
-                        <p className='text-white text-[25px]'>
+                        <p className='fifth-title-role'>
                             CMO
                         </p>
                         <a href={'https://www.linkedin.com/in/michariss'} target='_blank' rel="noreferrer" className='bg-white w-[20px] h-[20px] ml-[10px] mt-[10px] font-bold flex items-center justify-center'>
@@ -68,8 +67,7 @@ function Fifth() {
                         </a>
                     </div>
                 </div>
-                <div className='mt-[30px]'>
-                    <p className='text-[#FFFFFF] text-[20px] tracking-1 font-Barlow font-semibold'>
+                    <p className='fifth-description'>
                     Founder and Creative Director <br />
                     of Flying Machine, a New York<br />
                     -based branding and design <br />
@@ -82,18 +80,17 @@ function Fifth() {
                     Douglas Elliman and Teva <br />
                     Pharmaceuticals<br />
                     </p>
-                </div>
             </div>
-            <div className='flex flex-col items-start mt-[60px] w-1/4'>
-                <div className='rounded-full w-[160px] h-[160px] items-start bg-cover mt-[10px]'>
+            <div className='fifth-avatar-div'>
+                <div className='fifth-avatar-img'>
                     <Image src={ethan} className='p-1 bg-cover rounded-full'/>
                 </div>
-                <div className='mt-[20px] flex-col font-Exo2'>
-                    <p className='text-white text-[30px] font-bold'>
+                <div className='fifth-title-cap'>
+                    <p className='fifth-title'>
                         Ethan Tan
                     </p>
                     <div className='flex'>
-                        <p className='text-white text-[25px]'>
+                        <p className='fifth-title-role'>
                             Advisor
                         </p>
                         <a href={'https://www.linkedin.com/in/ethanjy'} target='_blank' rel="noreferrer" className='bg-white w-[20px] h-[20px] ml-[10px] mt-[10px] font-bold flex items-center justify-center'>
@@ -102,7 +99,7 @@ function Fifth() {
                     </div>
                 </div>
                 <div className='mt-[30px]'>
-                    <p className='text-[#FFFFFF] text-[20px] tracking-1 font-Barlow font-semibold'>
+                    <p className='fifth-description'>
                         Ethan was an entrepreneur, <br />
                         having co-founded a deepwater <br />
                         exploration drone company based <br />
@@ -120,17 +117,17 @@ function Fifth() {
                 </div>
             </div>
         </div>
-        <div className='w-full h-[600px] flex mt-[130px] px-[70px]'>
-            <div className='flex flex-col items-start w-1/4 mt-[70px]'>
+        <div className='w-full lg:h-[600px] flex flex-col lg:flex-row pt-[130px] px-2 lg:px-[70px]'>
+            <div className='fifth-avatar-div mt-[70px]'>
                 <div className='w-[160px] h-[160px] items-start'>
                     <Image src={trevor} className='p-1 bg-cover rounded-full'/>
                 </div>
-                <div className='mt-[20px] flex-col font-Exo2'>
-                    <p className='text-white text-[30px] font-bold'>
+                <div className='fifth-title-cap'>
+                    <p className='fifth-title'>
                         Trevor Owens
                     </p>
                     <div className='flex'>
-                        <p className='text-white text-[25px]'>
+                        <p className='fifth-title-role'>
                             Advisor
                         </p>
                         <a href={'https://www.linkedin.com/in/owenstrevor'} target='_blank' rel="noreferrer" className='bg-white w-[20px] h-[20px] ml-[10px] mt-[10px] font-bold flex items-center justify-center'>
@@ -138,8 +135,7 @@ function Fifth() {
                         </a>
                     </div>
                 </div>
-                <div className='mt-[30px]'>
-                    <p className='text-[#FFFFFF] text-[20px] tracking-1 font-Barlow font-semibold'>
+                    <p className='fifth-description'>
                         Trevor is an entrepreneur, <br />
                         author, and investor in <br />
                         early-stage startups. He is <br />
@@ -153,18 +149,17 @@ function Fifth() {
                         startups spanning Defi, NFTs, <br />
                         and Web3.<br />
                     </p>
-                </div>
             </div>
-            <div className='flex flex-col items-start mt-[60px] w-1/4'>
-                <div className='rounded-full w-[160px] h-[160px] items-start bg-cover mt-[10px]'>
+            <div className='fifth-avatar-div'>
+                <div className='fifth-avatar-img'>
                     <Image src={luis} className='p-1 bg-cover rounded-full'/>
                 </div>
-                <div className='mt-[20px] flex-col font-Exo2'>
-                    <p className='text-white text-[30px] font-bold'>
+                <div className='fifth-title-cap'>
+                    <p className='fifth-title'>
                         Luis Ramirez
                     </p>
                     <div className='flex'>
-                        <p className='text-white text-[25px]'>
+                        <p className='fifth-title-role'>
                             Advisor
                         </p>
                         <a href={'https://www.linkedin.com/in/luis-ramirez-5b6a6a238'} target='_blank' rel="noreferrer" className='bg-white w-[20px] h-[20px] ml-[10px] mt-[10px] font-bold flex items-center justify-center'>
@@ -172,8 +167,7 @@ function Fifth() {
                         </a>
                     </div>
                 </div>
-                <div className='mt-[30px]'>
-                    <p className='text-[#FFFFFF] text-[20px] tracking-1 font-Barlow font-semibold'>
+                    <p className='fifth-description'>
                         Luis Ramirez is an advisor  <br />
                         for the SpaceLabs team. He <br />
                         is also a Community Growth <br />
@@ -184,18 +178,17 @@ function Fifth() {
                         projects for the betterment of<br />
                         the ecosystem<br />
                     </p>
-                </div>
             </div>
-            <div className='flex flex-col items-start mt-[50px] w-1/4'>
+            <div className='fifth-avatar-div mt-[50px]'>
                 <div className='rounded-full w-[210px] h-[210px] items-start bg-cover mt-[10px] ml-[-25px]'>
                     <Image src={jamil} className='p-1 bg-cover rounded-full'/>
                 </div>
-                <div className='mt-[20px] flex-col font-Exo2'>
-                    <p className='text-white text-[30px] font-bold'>
+                <div className='fifth-title-cap'>
+                    <p className='fifth-title'>
                         Jamil Dhanani
                     </p>
                     <div className='flex'>
-                        <p className='text-white text-[25px]'>
+                        <p className='fifth-title-role'>
                             Advisor
                         </p>
                         <a href={'https://www.linkedin.com/in/jdhanani'} target='_blank' rel="noreferrer" className='bg-white w-[20px] h-[20px] ml-[10px] mt-[10px] font-bold flex items-center justify-center'>
@@ -203,8 +196,7 @@ function Fifth() {
                         </a>
                     </div>
                 </div>
-                <div className='mt-[30px]'>
-                    <p className='text-[#FFFFFF] text-[20px] tracking-1 font-Barlow font-semibold'>
+                    <p className='fifth-description'>
                         Jamil is the Founder and <br />
                         CEO of Gamma.io, the leading <br />
                         marketplace and creator <br />
@@ -217,7 +209,6 @@ function Fifth() {
                         Science at Stanford and the <br />
                         University of Toronto.<br />
                     </p>
-                </div>
             </div>
         </div>
     </div>

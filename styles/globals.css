@@ -55,6 +55,33 @@
         @apply text-[#FFFFFF] text-[20px] tracking-1 font-Barlow font-semibold
     }
 
+    .fifth-avatar-div {
+        @apply flex flex-col items-center lg:items-start mt-[60px] lg:w-1/4
+    }
 
+    .fifth-title {
+        @apply text-white text-[30px] font-bold
+        
+    }
+
+    .fifth-title-role {
+        @apply text-white text-[25px]
+        
+    }
+    
+    .fifth-title-cap {
+        @apply mt-[20px] flex-col font-Exo2
+        
+    }
+
+    .fifth-description {
+        @apply text-[#FFFFFF] text-[20px] tracking-1 font-Barlow font-semibold pt-10
+        
+    }
+
+    .fifth-avatar-img {
+        @apply rounded-full w-[160px] h-[160px] items-center lg:items-start bg-cover mt-[10px]
+        
+    }
      
   }
