@@ -1,3 +1,44 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+    .navbar-menu {
+      @apply text-gray-500 font-medium;
+    }
+  
+    .testmonial-p {
+      @apply text-2xl lg:text-4xl text-gray-500 font-bold;
+    }
+  
+    .container1 {
+      @apply bg-gray-100 rounded-xl;
+    }
+  
+    .heroBg {
+      background-image: url(assets/img/hero.png)
+    }
+  
+    .benifitbg {
+      background-image: url(assets/img/benifitbg.png)
+    }
+  
+    .title {
+      @apply w-full text-3xl lg:text-6xl font-bold text-gray-800 pb-0 lg:pb-2
+    }
+  
+    .subtitle {
+      @apply text-gray-500 text-sm lg:text-lg font-medium max-w-sm py-2 lg:py-5
+    }
+  
+    .description {
+      @apply w-full text-blue-500 text-base lg:text-lg pb-2 lg:pb-5 font-medium
+    }
+
+    .circle-icon {
+        @apply bg-white rounded-full w-10 h-10;
+    }
+
+
+     
+  }
