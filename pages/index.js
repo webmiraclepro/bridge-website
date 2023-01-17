@@ -12,37 +12,21 @@ import Seventh from './components/Seventh'
 export default function Home() {
   return (
     <div className='flex flex-col bg-black mx-auto'>
-      <div>
         <First />
-      </div>
       <hr className='my-[0px]'/>
-      <div>
         <Second />
-      </div>
       <hr className='my-[0px]'/>
-      <div>
         <Third />
-      </div>
       <hr className='my-[0px]'/>
-      <div >
         <Fourth />
-      </div>
       <hr className='my-[0px]'/>
-      <div>
         <Fifth />
-      </div>
       <hr className='my-[0px]'/>
-      <div>
         <Sixth />
-      </div>
       <hr className='my-[1px]'/>
-      <div>
         <Seventh />
-      </div>
       <hr className='my-[0px]'/>
-      <div>
         <Footer />
-      </div>
     </div>
   )
 }

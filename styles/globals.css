@@ -43,6 +43,18 @@
         @apply bg-white rounded-full w-10 h-10;
     }
 
+    .fourth-capdiv {
+        @apply flex flex-col items-center pt-[60px]
+    }
+
+    .fourth-title {
+        @apply text-[#42EBC8] text-[30px] font-Exo2
+    }
+
+    .fourth-description {
+        @apply text-[#FFFFFF] text-[20px] tracking-1 font-Barlow font-semibold
+    }
+
 
      
   }
