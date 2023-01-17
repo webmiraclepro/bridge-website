@@ -27,7 +27,7 @@ function Header() {
     }
   }, [ref])
   return (
-    <div className="w-full h-[150px] flex flex-row px-[70px] justify-between items-center gap-5 py-10">
+    <div className="w-full h-[150px] flex flex-row lg:px-[70px] justify-between items-center gap-5 py-10">
         <Image src={nftBridgeImage} width={230} height={180} className='flex bg-cover bg-center' onClick={() => router.push('/')} />
         <div className='hidden lg:flex gap-8 items-center'>
           <a className='circle-icon' href='https://twitter.com/nft_bridges' target='_blank' rel="noreferrer">

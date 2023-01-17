@@ -31,8 +31,12 @@
       @apply text-gray-500 text-sm lg:text-lg font-medium max-w-sm py-2 lg:py-5
     }
   
-    .description {
-      @apply w-full text-blue-500 text-base lg:text-lg pb-2 lg:pb-5 font-medium
+    .first-description {
+      @apply text-white text-lg lg:text-[35px] ;
+    }
+
+    .second-description {
+        @apply pt-5 font-Barlow font-semibold text-white text-[25px] tracking-1;
     }
 
     .circle-icon {

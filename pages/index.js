@@ -11,7 +11,7 @@ import Seventh from './components/Seventh'
 
 export default function Home() {
   return (
-    <div className='bg-black'>
+    <div className='flex flex-col bg-black mx-auto'>
       <div>
         <First />
       </div>
