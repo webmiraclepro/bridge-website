@@ -93,7 +93,12 @@
     }
     .seventh-title {
         @apply text-[32px] text-[#42EBC8]
-      }
+    }
+
+    .contact-input-long {
+        @apply lg:w-[700px] h-[40px] rounded-full pl-[15px] w-full
+        
+    }
     
     
   }
