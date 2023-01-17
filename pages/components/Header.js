@@ -40,20 +40,20 @@ function Header() {
             <Image src={telegramIcon} className='p-2' />
           </a>
         </div>
-        <div className='w-14 h-14  items-end' ref={ref} onClick={e => { e.stopPropagation() }}>
+        <div className='w-14 h-14 lg:items-end relative' ref={ref} onClick={e => { e.stopPropagation() }}>
           <button type='button' onClick={() => setOpen(true)} onChange={(e) => onChange(e.target.value)}>
             <Image src={menuIcon} />
           </button>
           {
             open &&
-            <div className="flex flex-col w-[150px] bg-[#42EBC8] text-center px-[8px] rounded-[15px] font-[30px] ml-[-40px]" style={{ color: "black" }}>
-              <div className='pt-[20px] tracking-2 text-black'>
+            <div className="flex flex-col w-[150px] bg-[#42EBC8] text-center px-[8px] rounded-[15px] font-[30px] absolute right-2 " style={{ color: "black" }}>
+              <div className='pt-5 tracking-2 text-black'>
                 <a href='https://testnets.nftbridges.xyz' target='_blank' rel="noreferrer">
                   NFT BRIDGE
                 </a>
               </div>
               <hr />
-              <button className='pb-[20px] tracking-2' onClick={() => router.push('/Contact')}>
+              <button className='pb-5 tracking-2' onClick={() => router.push('/Contact')}>
                 CONTACT
               </button>
             </div>
