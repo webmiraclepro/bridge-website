@@ -41,9 +41,9 @@ function Seventh() {
                         </p>
                     </div>
                     <div className='mt-[300px]'>
-                            <div className='w-[450px] h-[450px] absolute'>
-                                <Image src={robel} className='rounded-full'/>
-                            </div>
+                        <div className='w-[450px] h-[450px] absolute'>
+                            <Image src={robel} className='rounded-full'/>
+                        </div>
                     </div>
                 </div>
                 <div className='flex-col items-start justify-center mt-[130px] w-3/4 tracking-1 font-Barlow font-semibold'>
