@@ -16,27 +16,25 @@ function Footer() {
     )
   }
   return (
-    <div className="w-full h-[250px] flex relative px-[70px]">
-        <div className='w-1/2 flex items-center'>
-          <div className='mt-[-30px] ml-[-80px]'>
-            <Image src={nftBridgeImage} width={350} height={150} className='flex object-cover p-[50px]' onClick={goToTop} />
-          </div>
+    <div className="w-full lg:h-[250px] flex flex-col lg:flex-row lg:px-[70px]">
+        <div className='lg:w-1/2 flex flex-col lg:flex-row items-center mx-auto'>
+            <Image src={nftBridgeImage} width={350} height={150} className='flex object-cover p-[50px] ml-0 lg:mt-[-30px] lg: ml-[-80px] ' onClick={goToTop} />
         </div>
-        <div className='w-1/2 flex'>
-          <div className='w-1/2'>
-            <div className='flex space-x-7 mt-[120px]'>
-              <div className='bg-white rounded-full w-10 h-10'>
+        <div className='lg:w-1/2 flex flex-col lg:flex-row justify-center items-center'>
+          <div className='lg:w-1/2'>
+            <div className='flex gap-7 items-center '>
+              <div className='circle-icon'>
                 <Image src={twitterIcon} className='p-1'/>
               </div>
-              <div className='bg-white rounded-full w-10 h-10'>
+              <div className='circle-icon'>
                 <Image src={discordIcon} className='p-1'/>
               </div>
-              <div className='bg-white rounded-full w-10 h-10'>
+              <div className='circle-icon'>
                 <Image src={telegramIcon} className='p-2'/>
               </div>
             </div>
           </div>
-          <div className='w-1/2 flex items-center justify-center mt-[60px]'>
+          <div className='lg:w-1/2 flex items-center justify-center mt-[60px]'>
             <div className=''>
                   <p className='text-white font-[17px]'>
                       © NFT Bridges 2022
@@ -44,11 +42,11 @@ function Footer() {
               </div>
             </div>
         </div>
-        <div className='flex flex-col mt-[110px] ml-[-20px] absolute right-[70px]'>
+        <div className='flex flex-col lg:mt-[110px] lg:ml-[-20px] items-center lg:items-start '>
           <p className='text-white'>
               TOP
           </p>
-          <div className='w-[30px] h-[30px] rounded-full mt-[10px]'>
+          <div className='w-[30px] h-[30px] rounded-full lg:mt-[10px]'>
             <button>
               <Image src={arrowup} className='rounded-full' onClick={goToTop}/>
             </button>
